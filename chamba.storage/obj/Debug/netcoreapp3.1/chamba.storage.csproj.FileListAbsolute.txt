@@ -1,0 +1,12 @@
+C:\Github\ChambaSolution\chamba.storage\bin\Debug\netcoreapp3.1\chamba.storage.deps.json
+C:\Github\ChambaSolution\chamba.storage\bin\Debug\netcoreapp3.1\chamba.storage.runtimeconfig.json
+C:\Github\ChambaSolution\chamba.storage\bin\Debug\netcoreapp3.1\chamba.storage.runtimeconfig.dev.json
+C:\Github\ChambaSolution\chamba.storage\bin\Debug\netcoreapp3.1\chamba.storage.dll
+C:\Github\ChambaSolution\chamba.storage\bin\Debug\netcoreapp3.1\chamba.storage.pdb
+C:\Github\ChambaSolution\chamba.storage\obj\Debug\netcoreapp3.1\chamba.storage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Github\ChambaSolution\chamba.storage\obj\Debug\netcoreapp3.1\chamba.storage.AssemblyInfoInputs.cache
+C:\Github\ChambaSolution\chamba.storage\obj\Debug\netcoreapp3.1\chamba.storage.AssemblyInfo.cs
+C:\Github\ChambaSolution\chamba.storage\obj\Debug\netcoreapp3.1\chamba.storage.csproj.CoreCompileInputs.cache
+C:\Github\ChambaSolution\chamba.storage\obj\Debug\netcoreapp3.1\chamba.storage.dll
+C:\Github\ChambaSolution\chamba.storage\obj\Debug\netcoreapp3.1\chamba.storage.pdb
+C:\Github\ChambaSolution\chamba.storage\obj\Debug\netcoreapp3.1\chamba.storage.genruntimeconfig.cache

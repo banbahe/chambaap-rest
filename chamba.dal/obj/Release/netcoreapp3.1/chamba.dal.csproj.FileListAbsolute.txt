@@ -1,0 +1,13 @@
+C:\Github\ChambaSolution\chamba.dal\obj\Release\netcoreapp3.1\chamba.dal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Github\ChambaSolution\chamba.dal\obj\Release\netcoreapp3.1\chamba.dal.AssemblyInfoInputs.cache
+C:\Github\ChambaSolution\chamba.dal\obj\Release\netcoreapp3.1\chamba.dal.AssemblyInfo.cs
+C:\Github\ChambaSolution\chamba.dal\obj\Release\netcoreapp3.1\chamba.dal.csproj.CoreCompileInputs.cache
+C:\Github\ChambaSolution\chamba.dal\bin\Release\netcoreapp3.1\chamba.dal.deps.json
+C:\Github\ChambaSolution\chamba.dal\bin\Release\netcoreapp3.1\chamba.dal.dll
+C:\Github\ChambaSolution\chamba.dal\bin\Release\netcoreapp3.1\chamba.dal.pdb
+C:\Github\ChambaSolution\chamba.dal\obj\Release\netcoreapp3.1\chamba.dal.csproj.AssemblyReference.cache
+C:\Github\ChambaSolution\chamba.dal\obj\Release\netcoreapp3.1\chamba.dal.dll
+C:\Github\ChambaSolution\chamba.dal\obj\Release\netcoreapp3.1\chamba.dal.pdb
+C:\Github\ChambaSolution\chamba.dal\bin\Release\netcoreapp3.1\chamba.storage.dll
+C:\Github\ChambaSolution\chamba.dal\bin\Release\netcoreapp3.1\chamba.storage.pdb
+C:\Github\ChambaSolution\chamba.dal\obj\Release\netcoreapp3.1\chamba.dal.csproj.CopyComplete

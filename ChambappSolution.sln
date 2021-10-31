@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "chambapp.bll", "chamba.bll\chambapp.bll.csproj", "{13B5444E-D86C-44BE-B90A-9927195FD85E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "chambapp.dto", "chamba.dto\chambapp.dto.csproj", "{E2C650D4-30F8-4AFE-9616-CE72C30DB262}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "chambapp.dal", "chamba.dal\chambapp.dal.csproj", "{5E9A7BA4-AD89-49C8-A472-235F8C14D692}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "chambapp.storage", "chamba.storage\chambapp.storage.csproj", "{4A51AA0B-FCCD-493B-B0AE-3A638E2D1DB5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "chambapp.services", "chamba.services\chambapp.services.csproj", "{BEFB960D-87D8-4666-B93F-1E6AB889030F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chambapp.nunit.test", "chambapp.nunit.test\chambapp.nunit.test.csproj", "{E993BD32-0C4F-4E11-8653-9AE82BC4B74B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13B5444E-D86C-44BE-B90A-9927195FD85E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13B5444E-D86C-44BE-B90A-9927195FD85E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13B5444E-D86C-44BE-B90A-9927195FD85E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13B5444E-D86C-44BE-B90A-9927195FD85E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2C650D4-30F8-4AFE-9616-CE72C30DB262}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2C650D4-30F8-4AFE-9616-CE72C30DB262}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2C650D4-30F8-4AFE-9616-CE72C30DB262}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2C650D4-30F8-4AFE-9616-CE72C30DB262}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E9A7BA4-AD89-49C8-A472-235F8C14D692}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E9A7BA4-AD89-49C8-A472-235F8C14D692}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E9A7BA4-AD89-49C8-A472-235F8C14D692}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E9A7BA4-AD89-49C8-A472-235F8C14D692}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A51AA0B-FCCD-493B-B0AE-3A638E2D1DB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A51AA0B-FCCD-493B-B0AE-3A638E2D1DB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A51AA0B-FCCD-493B-B0AE-3A638E2D1DB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A51AA0B-FCCD-493B-B0AE-3A638E2D1DB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEFB960D-87D8-4666-B93F-1E6AB889030F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEFB960D-87D8-4666-B93F-1E6AB889030F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEFB960D-87D8-4666-B93F-1E6AB889030F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEFB960D-87D8-4666-B93F-1E6AB889030F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E993BD32-0C4F-4E11-8653-9AE82BC4B74B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E993BD32-0C4F-4E11-8653-9AE82BC4B74B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E993BD32-0C4F-4E11-8653-9AE82BC4B74B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E993BD32-0C4F-4E11-8653-9AE82BC4B74B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FAB6094A-CD20-46CD-83E1-ACF6FBD503A4}
+	EndGlobalSection
+EndGlobal

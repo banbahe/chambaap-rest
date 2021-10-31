@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = chambapp.nunit.test
+build_property.ProjectDir = C:\Github\chambaap-rest\chambapp.nunit.test\
