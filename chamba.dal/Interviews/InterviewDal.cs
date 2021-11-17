@@ -1,5 +1,4 @@
-﻿
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Linq.Expressions;
@@ -7,12 +6,12 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Data.Common;
 using System.Data.SqlTypes;
-using chamba.storage.Models;
+using chambapp.storage.Models;
 using Microsoft.EntityFrameworkCore;
 
 //using Microsoft.EntityFrameworkCore;
 
-namespace chamba.dal.Interviews
+namespace chambapp.dal.Interviews
 {
     public class InterviewDal : IInterviewDal
     {
@@ -24,7 +23,7 @@ namespace chamba.dal.Interviews
             _interview = new Interview();
         }
 
-        public List<Interview> GetAll()
+        public IEnumerable<Interview> GetAll()
         {
             using (chamba_storageContext context = new chamba_storageContext())
             {
@@ -39,9 +38,18 @@ namespace chamba.dal.Interviews
             return _listInterview;
         }
 
-        public Task<Interview> CreateAsync(Interview interview)
+        public async Task<Interview> CreateAsync(Interview interview)
         {
-            throw new NotImplementedException();
+            using (chamba_storageContext context = new chamba_storageContext())
+            {
+
+                // context.Interviews.Add(interview);
+                context.Entry(interview.IdcompanyNavigation).State = EntityState.Added;
+                context.Entry(interview.IdrecruiterNavigation).State = EntityState.Added;
+                context.Entry(interview).State = EntityState.Added;
+                await context.SaveChangesAsync();
+                return interview;
+            }
         }
     }
 }

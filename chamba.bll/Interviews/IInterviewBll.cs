@@ -1,11 +1,16 @@
-﻿using chamba.dto;
+﻿using chambapp.dto;
 using System.Collections.Generic;
+using System.Threading.Tasks;
+using chambapp.dto;
+using chambapp.storage.Models;
 
-namespace chamba.bll.Interviews
+namespace chambapp.bll.Interviews
 {
     public interface IInterviewBll
     {
-        List<InterviewDto> GetAll();
-        InterviewDto Create();
+        Task<ResponseModel> InitProcess(IEnumerable<string> storageChambas);
+        ResponseModel GetAll();
+        //List<InterviewDto> GetAll();
+        Task<ResponseModel>Create(InterviewDto interview);
     }
 }

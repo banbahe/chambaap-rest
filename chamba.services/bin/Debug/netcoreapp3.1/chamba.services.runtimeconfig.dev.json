@@ -1,8 +1,0 @@
-{
-  "runtimeOptions": {
-    "additionalProbingPaths": [
-      "C:\\Users\\bnql\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\bnql\\.nuget\\packages"
-    ]
-  }
-}

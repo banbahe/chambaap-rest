@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 #nullable disable
 
-namespace chamba.storage.Models
+namespace chambapp.storage.Models
 {
     public partial class Interview
     {

@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "13b5444e-d86c-44be-b90a-9927195fd85e": {
+      "ProjectGuid": "13b5444e-d86c-44be-b90a-9927195fd85e",
+      "DisplayName": "chambapp.bll",
+      "ColorIndex": 0
+    },
+    "e993bd32-0c4f-4e11-8653-9ae82bc4b74b": {
+      "ProjectGuid": "e993bd32-0c4f-4e11-8653-9ae82bc4b74b",
+      "DisplayName": "chambapp.nunit.test",
+      "ColorIndex": 1
+    },
+    "befb960d-87d8-4666-b93f-1e6ab889030f": {
+      "ProjectGuid": "befb960d-87d8-4666-b93f-1e6ab889030f",
+      "DisplayName": "chambapp.services",
+      "ColorIndex": 2
+    },
+    "e2c650d4-30f8-4afe-9616-ce72c30db262": {
+      "ProjectGuid": "e2c650d4-30f8-4afe-9616-ce72c30db262",
+      "DisplayName": "chambapp.dto",
+      "ColorIndex": 3
+    },
+    "5e9a7ba4-ad89-49c8-a472-235f8c14d692": {
+      "ProjectGuid": "5e9a7ba4-ad89-49c8-a472-235f8c14d692",
+      "DisplayName": "chambapp.dal",
+      "ColorIndex": 4
+    },
+    "4a51aa0b-fccd-493b-b0ae-3a638e2d1db5": {
+      "ProjectGuid": "4a51aa0b-fccd-493b-b0ae-3a638e2d1db5",
+      "DisplayName": "chambapp.storage",
+      "ColorIndex": 5
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 6
+}

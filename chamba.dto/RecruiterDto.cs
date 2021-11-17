@@ -1,10 +1,10 @@
 ﻿using System;
 
-namespace chamba.dto
+namespace chambapp.dto
 {
     public class RecruiterDto
     {
-        public int Idrecruiter { get; set; }
+        public int IdRecruiter { get; set; }
         public string Name { get; set; }
         public string Email { get; set; }
         public string Phone { get; set; }

@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Metadata;
 
 #nullable disable
 
-namespace chamba.storage.Models
+namespace chambapp.storage.Models
 {
     public partial class chamba_storageContext : DbContext
     {

@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 
-namespace chamba.services
+namespace chambapp.services
 {
     public class Program
     {

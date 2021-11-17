@@ -23,3 +23,4 @@ C:\Github\chambaap-rest\chamba.storage\obj\Release\netcoreapp3.1\chambapp.storag
 C:\Github\chambaap-rest\chamba.storage\obj\Release\netcoreapp3.1\chambapp.storage.dll
 C:\Github\chambaap-rest\chamba.storage\obj\Release\netcoreapp3.1\chambapp.storage.pdb
 C:\Github\chambaap-rest\chamba.storage\obj\Release\netcoreapp3.1\chambapp.storage.genruntimeconfig.cache
+C:\Github\chambaap-rest\chamba.storage\obj\Release\netcoreapp3.1\chambapp.storage.csproj.AssemblyReference.cache

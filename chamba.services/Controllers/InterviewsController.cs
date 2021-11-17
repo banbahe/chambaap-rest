@@ -1,20 +1,30 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using System;
+﻿using System;
+using Microsoft.AspNetCore.Mvc;
+
 using System.Collections.Generic;
-using System.Linq;
+
 using System.Threading.Tasks;
-using chamba.bll.Interviews;
-using chamba.dto;
+using chambapp.bll.Interviews;
+using System.IO;
+using System.Reflection;
+using System.Text;
+using System.Text.Unicode;
+using chambapp.bll.Helpers;
+using chambapp.dto;
+using System.Diagnostics;
+using System.Net.Http;
+
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
-namespace chamba.services.Controllers
+namespace chambapp.services.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
     public class InterviewsController : ControllerBase
     {
-        private readonly  IInterviewBll _interviewBll;
+        
+        private readonly IInterviewBll _interviewBll;
 
         public InterviewsController(IInterviewBll interviewBll) => _interviewBll = interviewBll;
 
@@ -24,21 +34,29 @@ namespace chamba.services.Controllers
 
         // GET: api/<InterviewsController>
         [HttpGet]
-        public async Task<IEnumerable<InterviewDto>> Get()
+        public async Task<ResponseModel> Get()
         {
             return _interviewBll.GetAll();
         }
 
         // GET api/<InterviewsController>/5
-        [HttpGet("{id}")]
-        public string Get(int id)
+        [HttpGet]
+        [Route("init")]
+        public async Task<ResponseModel> Init()
         {
-            return "value";
+            // Read File
+            string fileRoot = "./assets/chambas.txt";
+            //var y = System.IO.File.ReadAllText(fileRoot) + "ReadAllText";
+            var linesInFile = System.IO.File.ReadLines(fileRoot);
+            return await _interviewBll.InitProcess(linesInFile);
         }
 
         // POST api/<InterviewsController>
+
+        // public async Task<IActionResult> PutEmployeeAsync([FromBody] Employee emp)
+
         [HttpPost]
-        public void Post([FromBody] string value)
+        public async Task Post([FromBody] string value)
         {
         }
 

@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
-using chamba.storage.Models;
+using chambapp.storage.Models;
 
-namespace chamba.dal.Interviews
+namespace chambapp.dal.Interviews
 {
     public interface IInterviewDal
     {
-        List<Interview> GetAll();
+        IEnumerable<Interview> GetAll();
         Task<Interview> CreateAsync(Interview interview);
     }
 }
