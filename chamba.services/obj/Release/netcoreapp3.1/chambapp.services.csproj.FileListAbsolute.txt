@@ -69,14 +69,10 @@ C:\Github\ChambaSolution\chamba.services\obj\Release\netcoreapp3.1\chambapp.serv
 C:\Github\ChambaSolution\chamba.services\obj\Release\netcoreapp3.1\chambapp.services.dll
 C:\Github\ChambaSolution\chamba.services\obj\Release\netcoreapp3.1\chambapp.services.pdb
 C:\Github\ChambaSolution\chamba.services\obj\Release\netcoreapp3.1\chambapp.services.genruntimeconfig.cache
-C:\Github\chambaap-rest\chamba.services\obj\Release\netcoreapp3.1\chambapp.services.csproj.AssemblyReference.cache
-C:\Github\chambaap-rest\chamba.services\obj\Release\netcoreapp3.1\chambapp.services.GeneratedMSBuildEditorConfig.editorconfig
-C:\Github\chambaap-rest\chamba.services\obj\Release\netcoreapp3.1\chambapp.services.AssemblyInfoInputs.cache
-C:\Github\chambaap-rest\chamba.services\obj\Release\netcoreapp3.1\chambapp.services.AssemblyInfo.cs
-C:\Github\chambaap-rest\chamba.services\obj\Release\netcoreapp3.1\chambapp.services.csproj.CoreCompileInputs.cache
-C:\Github\chambaap-rest\chamba.services\obj\Release\netcoreapp3.1\chambapp.services.MvcApplicationPartsAssemblyInfo.cache
+C:\Github\chambaap-rest\chamba.services\bin\Release\netcoreapp3.1\assets\chambappsettings.json
 C:\Github\chambaap-rest\chamba.services\bin\Release\netcoreapp3.1\appsettings.Development.json
 C:\Github\chambaap-rest\chamba.services\bin\Release\netcoreapp3.1\appsettings.json
+C:\Github\chambaap-rest\chamba.services\bin\Release\netcoreapp3.1\assets\chambas.json
 C:\Github\chambaap-rest\chamba.services\bin\Release\netcoreapp3.1\chambapp.services.exe
 C:\Github\chambaap-rest\chamba.services\bin\Release\netcoreapp3.1\chambapp.services.deps.json
 C:\Github\chambaap-rest\chamba.services\bin\Release\netcoreapp3.1\chambapp.services.runtimeconfig.json
@@ -84,6 +80,7 @@ C:\Github\chambaap-rest\chamba.services\bin\Release\netcoreapp3.1\chambapp.servi
 C:\Github\chambaap-rest\chamba.services\bin\Release\netcoreapp3.1\chambapp.services.dll
 C:\Github\chambaap-rest\chamba.services\bin\Release\netcoreapp3.1\chambapp.services.pdb
 C:\Github\chambaap-rest\chamba.services\bin\Release\netcoreapp3.1\AutoMapper.dll
+C:\Github\chambaap-rest\chamba.services\bin\Release\netcoreapp3.1\MailKit.dll
 C:\Github\chambaap-rest\chamba.services\bin\Release\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 C:\Github\chambaap-rest\chamba.services\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
 C:\Github\chambaap-rest\chamba.services\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
@@ -104,7 +101,9 @@ C:\Github\chambaap-rest\chamba.services\bin\Release\netcoreapp3.1\Microsoft.Iden
 C:\Github\chambaap-rest\chamba.services\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
 C:\Github\chambaap-rest\chamba.services\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Github\chambaap-rest\chamba.services\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Github\chambaap-rest\chamba.services\bin\Release\netcoreapp3.1\MimeKit.dll
 C:\Github\chambaap-rest\chamba.services\bin\Release\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Github\chambaap-rest\chamba.services\bin\Release\netcoreapp3.1\BouncyCastle.Crypto.dll
 C:\Github\chambaap-rest\chamba.services\bin\Release\netcoreapp3.1\System.Collections.Immutable.dll
 C:\Github\chambaap-rest\chamba.services\bin\Release\netcoreapp3.1\System.ComponentModel.Annotations.dll
 C:\Github\chambaap-rest\chamba.services\bin\Release\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
@@ -132,6 +131,12 @@ C:\Github\chambaap-rest\chamba.services\bin\Release\netcoreapp3.1\chambapp.bll.p
 C:\Github\chambaap-rest\chamba.services\bin\Release\netcoreapp3.1\chambapp.dal.pdb
 C:\Github\chambaap-rest\chamba.services\bin\Release\netcoreapp3.1\chambapp.dto.pdb
 C:\Github\chambaap-rest\chamba.services\bin\Release\netcoreapp3.1\chambapp.storage.pdb
+C:\Github\chambaap-rest\chamba.services\obj\Release\netcoreapp3.1\chambapp.services.csproj.AssemblyReference.cache
+C:\Github\chambaap-rest\chamba.services\obj\Release\netcoreapp3.1\chambapp.services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Github\chambaap-rest\chamba.services\obj\Release\netcoreapp3.1\chambapp.services.AssemblyInfoInputs.cache
+C:\Github\chambaap-rest\chamba.services\obj\Release\netcoreapp3.1\chambapp.services.AssemblyInfo.cs
+C:\Github\chambaap-rest\chamba.services\obj\Release\netcoreapp3.1\chambapp.services.csproj.CoreCompileInputs.cache
+C:\Github\chambaap-rest\chamba.services\obj\Release\netcoreapp3.1\chambapp.services.MvcApplicationPartsAssemblyInfo.cache
 C:\Github\chambaap-rest\chamba.services\obj\Release\netcoreapp3.1\staticwebassets\chambapp.services.StaticWebAssets.Manifest.cache
 C:\Github\chambaap-rest\chamba.services\obj\Release\netcoreapp3.1\chambapp.services.RazorTargetAssemblyInfo.cache
 C:\Github\chambaap-rest\chamba.services\obj\Release\netcoreapp3.1\chambapp.services.csproj.CopyComplete

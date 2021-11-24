@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31729.503
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "chambapp.bll", "chamba.bll\chambapp.bll.csproj", "{13B5444E-D86C-44BE-B90A-9927195FD85E}"
 EndProject
@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "chambapp.storage", "chamba.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "chambapp.services", "chamba.services\chambapp.services.csproj", "{BEFB960D-87D8-4666-B93F-1E6AB889030F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chambapp.nunit.test", "chambapp.nunit.test\chambapp.nunit.test.csproj", "{E993BD32-0C4F-4E11-8653-9AE82BC4B74B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "chambapp.nunit.test", "chambapp.nunit.test\chambapp.nunit.test.csproj", "{E993BD32-0C4F-4E11-8653-9AE82BC4B74B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

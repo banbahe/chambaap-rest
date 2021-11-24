@@ -1,8 +1,6 @@
 ﻿using System;
 using Microsoft.AspNetCore.Mvc;
-
 using System.Collections.Generic;
-
 using System.Threading.Tasks;
 using chambapp.bll.Interviews;
 using System.IO;
@@ -23,7 +21,7 @@ namespace chambapp.services.Controllers
     [ApiController]
     public class InterviewsController : ControllerBase
     {
-        
+
         private readonly IInterviewBll _interviewBll;
 
         public InterviewsController(IInterviewBll interviewBll) => _interviewBll = interviewBll;
@@ -32,23 +30,24 @@ namespace chambapp.services.Controllers
         //public async Task<IEnumerable<Employee>> GetEmployeesAsync(
         //    string firstName = null, string lastName = null)
 
-        // GET: api/<InterviewsController>
+        //GET: api/<InterviewsController>
         [HttpGet]
-        public async Task<ResponseModel> Get()
+        public ResponseModel GetPerFilter(int all = 0, int id = 0, int idstatus = 0, int iduser = 0, int idcompany = 0)
         {
-            return _interviewBll.GetAll();
+            return _interviewBll.GetPerFilter(all: all, id: id, idstatus: idstatus, iduser: iduser, idcompany: idcompany);
         }
 
-        // GET api/<InterviewsController>/5
+        // GET api/<InterviewsController>/init
+        // init proccess 
+        // read all interviews when is proposal
+        // send email  and cv
+        // change status to 10 - Sent first time
+
         [HttpGet]
         [Route("init")]
         public async Task<ResponseModel> Init()
         {
-            // Read File
-            string fileRoot = "./assets/chambas.txt";
-            //var y = System.IO.File.ReadAllText(fileRoot) + "ReadAllText";
-            var linesInFile = System.IO.File.ReadLines(fileRoot);
-            return await _interviewBll.InitProcess(linesInFile);
+            return await _interviewBll.InitProcess();
         }
 
         // POST api/<InterviewsController>
@@ -56,20 +55,22 @@ namespace chambapp.services.Controllers
         // public async Task<IActionResult> PutEmployeeAsync([FromBody] Employee emp)
 
         [HttpPost]
-        public async Task Post([FromBody] string value)
+        // [Route("row")]
+        public async Task<ResponseModel> Post([FromBody] InterviewDto value)
         {
+            return await _interviewBll.CreateAsync(value);
         }
 
         // PUT api/<InterviewsController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
+        //[HttpPut("{id}")]
+        //public void Put(int id, [FromBody] string value)
+        //{
+        //}
 
-        // DELETE api/<InterviewsController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-        }
+        //// DELETE api/<InterviewsController>/5
+        //[HttpDelete("{id}")]
+        //public void Delete(int id)
+        //{
+        //}
     }
 }

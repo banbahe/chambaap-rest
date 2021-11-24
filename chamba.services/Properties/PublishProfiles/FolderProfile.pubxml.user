@@ -3,4 +3,8 @@
 https://go.microsoft.com/fwlink/?LinkID=208121. 
 -->
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Github\chambaap-rest\chamba.services\bin\Release\netcoreapp3.1\publish\</_PublishTargetUrl>
+    <History>True|2021-11-23T21:54:45.4183911Z;True|2021-11-16T21:16:42.4492128-06:00;</History>
+  </PropertyGroup>
 </Project>

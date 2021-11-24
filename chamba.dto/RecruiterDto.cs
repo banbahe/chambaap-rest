@@ -10,5 +10,9 @@ namespace chambapp.dto
         public string Phone { get; set; }
         public string ReplyEmail { get; set; }
         public object TempSalary { get; set; }
+        public int CurrentState { get; } = 201;
+        //        id description
+        //200	USERS_CANDIDATE
+        //201	USERS_RECRUITER
     }
 }

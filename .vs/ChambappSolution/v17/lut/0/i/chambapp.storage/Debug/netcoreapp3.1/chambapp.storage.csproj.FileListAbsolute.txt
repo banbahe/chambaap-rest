@@ -1,0 +1,11 @@
+C:\Github\chambaap-rest\.vs\ChambappSolution\v17\lut\0\b\chambapp.storage\Debug\netcoreapp3.1\chambapp.storage.deps.json
+C:\Github\chambaap-rest\.vs\ChambappSolution\v17\lut\0\b\chambapp.storage\Debug\netcoreapp3.1\chambapp.storage.runtimeconfig.json
+C:\Github\chambaap-rest\.vs\ChambappSolution\v17\lut\0\b\chambapp.storage\Debug\netcoreapp3.1\chambapp.storage.runtimeconfig.dev.json
+C:\Github\chambaap-rest\.vs\ChambappSolution\v17\lut\0\b\chambapp.storage\Debug\netcoreapp3.1\chambapp.storage.dll
+C:\Github\chambaap-rest\.vs\ChambappSolution\v17\lut\0\i\chambapp.storage\Debug\netcoreapp3.1\chambapp.storage.csproj.AssemblyReference.cache
+C:\Github\chambaap-rest\.vs\ChambappSolution\v17\lut\0\i\chambapp.storage\Debug\netcoreapp3.1\chambapp.storage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Github\chambaap-rest\.vs\ChambappSolution\v17\lut\0\i\chambapp.storage\Debug\netcoreapp3.1\chambapp.storage.AssemblyInfoInputs.cache
+C:\Github\chambaap-rest\.vs\ChambappSolution\v17\lut\0\i\chambapp.storage\Debug\netcoreapp3.1\chambapp.storage.AssemblyInfo.cs
+C:\Github\chambaap-rest\.vs\ChambappSolution\v17\lut\0\i\chambapp.storage\Debug\netcoreapp3.1\chambapp.storage.csproj.CopyComplete
+C:\Github\chambaap-rest\.vs\ChambappSolution\v17\lut\0\i\chambapp.storage\Debug\netcoreapp3.1\chambapp.storage.dll
+C:\Github\chambaap-rest\.vs\ChambappSolution\v17\lut\0\i\chambapp.storage\Debug\netcoreapp3.1\chambapp.storage.genruntimeconfig.cache

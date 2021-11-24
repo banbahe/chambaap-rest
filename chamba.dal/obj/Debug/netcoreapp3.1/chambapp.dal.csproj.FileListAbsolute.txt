@@ -21,6 +21,6 @@ C:\Github\chambaap-rest\chamba.dal\obj\Debug\netcoreapp3.1\chambapp.dal.Generate
 C:\Github\chambaap-rest\chamba.dal\obj\Debug\netcoreapp3.1\chambapp.dal.AssemblyInfoInputs.cache
 C:\Github\chambaap-rest\chamba.dal\obj\Debug\netcoreapp3.1\chambapp.dal.AssemblyInfo.cs
 C:\Github\chambaap-rest\chamba.dal\obj\Debug\netcoreapp3.1\chambapp.dal.csproj.CoreCompileInputs.cache
+C:\Github\chambaap-rest\chamba.dal\obj\Debug\netcoreapp3.1\chambapp.dal.csproj.CopyComplete
 C:\Github\chambaap-rest\chamba.dal\obj\Debug\netcoreapp3.1\chambapp.dal.dll
 C:\Github\chambaap-rest\chamba.dal\obj\Debug\netcoreapp3.1\chambapp.dal.pdb
-C:\Github\chambaap-rest\chamba.dal\obj\Debug\netcoreapp3.1\chambapp.dal.csproj.CopyComplete

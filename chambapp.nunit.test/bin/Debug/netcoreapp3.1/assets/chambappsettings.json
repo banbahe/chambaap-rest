@@ -3,6 +3,12 @@
     "key": "AIzaSyBXDZsI-p6gyfuEdFlKipbzzNvgB00TUxg",
     "keyparameter": "&key=AIzaSyBXDZsI-p6gyfuEdFlKipbzzNvgB00TUxg",
     "baseURI": "https://maps.googleapis.com/maps/api/"
+  },
+  "MailProvider": {
+    "email": "eban.blanquel@gmail.com",
+    "pwd": "@VueJS2018",
+    "smtp": "smtp.gmail.com",
+    "port": 587
   }
-  
+
 }

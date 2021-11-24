@@ -6,6 +6,7 @@ using Microsoft.Extensions.Hosting;
 using chambapp.bll.Interviews;
 using chambapp.bll.Companies;
 using chambapp.bll.Services;
+using chambapp.bll.Services.Email;
 using chambapp.dal.Interviews;
 using chambapp.dal.Companies;
 using chambapp.bll.AutoMapper;
@@ -37,6 +38,7 @@ namespace chambapp.services
             // services.AddScoped<IHttpClientFactory>();
             services.AddScoped<IGoogleMaps, GoogleMaps>();
             services.AddSingleton<MainMapper>();
+            services.AddSingleton<IEmailService,EmailService>();
             services.AddScoped<ResponseModel>();
 
             // Business Logic Layer

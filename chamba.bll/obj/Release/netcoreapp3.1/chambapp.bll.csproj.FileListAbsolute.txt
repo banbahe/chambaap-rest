@@ -15,10 +15,7 @@ C:\Github\ChambaSolution\chamba.bll\obj\Release\netcoreapp3.1\chambapp.bll.cspro
 C:\Github\ChambaSolution\chamba.bll\obj\Release\netcoreapp3.1\chambapp.bll.csproj.CopyComplete
 C:\Github\ChambaSolution\chamba.bll\obj\Release\netcoreapp3.1\chambapp.bll.dll
 C:\Github\ChambaSolution\chamba.bll\obj\Release\netcoreapp3.1\chambapp.bll.pdb
-C:\Github\chambaap-rest\chamba.bll\obj\Release\netcoreapp3.1\chambapp.bll.GeneratedMSBuildEditorConfig.editorconfig
-C:\Github\chambaap-rest\chamba.bll\obj\Release\netcoreapp3.1\chambapp.bll.AssemblyInfoInputs.cache
-C:\Github\chambaap-rest\chamba.bll\obj\Release\netcoreapp3.1\chambapp.bll.AssemblyInfo.cs
-C:\Github\chambaap-rest\chamba.bll\obj\Release\netcoreapp3.1\chambapp.bll.csproj.CoreCompileInputs.cache
+C:\Github\chambaap-rest\chamba.bll\bin\Release\netcoreapp3.1\assets\chambappsettings.json
 C:\Github\chambaap-rest\chamba.bll\bin\Release\netcoreapp3.1\chambapp.bll.deps.json
 C:\Github\chambaap-rest\chamba.bll\bin\Release\netcoreapp3.1\chambapp.bll.dll
 C:\Github\chambaap-rest\chamba.bll\bin\Release\netcoreapp3.1\chambapp.bll.pdb
@@ -29,7 +26,10 @@ C:\Github\chambaap-rest\chamba.bll\bin\Release\netcoreapp3.1\chambapp.dal.pdb
 C:\Github\chambaap-rest\chamba.bll\bin\Release\netcoreapp3.1\chambapp.dto.pdb
 C:\Github\chambaap-rest\chamba.bll\bin\Release\netcoreapp3.1\chambapp.storage.pdb
 C:\Github\chambaap-rest\chamba.bll\obj\Release\netcoreapp3.1\chambapp.bll.csproj.AssemblyReference.cache
+C:\Github\chambaap-rest\chamba.bll\obj\Release\netcoreapp3.1\chambapp.bll.GeneratedMSBuildEditorConfig.editorconfig
+C:\Github\chambaap-rest\chamba.bll\obj\Release\netcoreapp3.1\chambapp.bll.AssemblyInfoInputs.cache
+C:\Github\chambaap-rest\chamba.bll\obj\Release\netcoreapp3.1\chambapp.bll.AssemblyInfo.cs
+C:\Github\chambaap-rest\chamba.bll\obj\Release\netcoreapp3.1\chambapp.bll.csproj.CoreCompileInputs.cache
 C:\Github\chambaap-rest\chamba.bll\obj\Release\netcoreapp3.1\chambapp.bll.csproj.CopyComplete
 C:\Github\chambaap-rest\chamba.bll\obj\Release\netcoreapp3.1\chambapp.bll.dll
 C:\Github\chambaap-rest\chamba.bll\obj\Release\netcoreapp3.1\chambapp.bll.pdb
-C:\Github\chambaap-rest\chamba.bll\bin\Release\netcoreapp3.1\appsettings.json

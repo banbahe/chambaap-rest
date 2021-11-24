@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "gUUqPyjjP0Bgcmdt4/dDWL+nJbA926gny7xHgaodJv7L77PwVnjy40DYnXboPMlVBA8MvrREBxRyjPlYmeCYHQ==",
+  "dgSpecHash": "vj04fwoYe9qwqvAteF/7Ls/6fh3D6+ANUIvyqJBhekyHsR7xfPgFv942wuZCDez31z6TuvEup9FVoZTiKydbKQ==",
   "success": true,
   "projectFilePath": "C:\\Github\\chambaap-rest\\chamba.storage\\chambapp.storage.csproj",
   "expectedPackageFiles": [
@@ -100,10 +100,7 @@
     "C:\\Users\\bnql\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\bnql\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\bnql\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\bnql\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "C:\\Users\\bnql\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
-    "C:\\Users\\bnql\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\bnql\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+    "C:\\Users\\bnql\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }

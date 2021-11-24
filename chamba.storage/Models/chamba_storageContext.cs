@@ -19,18 +19,15 @@ namespace chambapp.storage.Models
 
         public virtual DbSet<Company> Companies { get; set; }
         public virtual DbSet<Interview> Interviews { get; set; }
-        public virtual DbSet<Recruiter> Recruiters { get; set; }
         public virtual DbSet<StatusCatalog> StatusCatalogs { get; set; }
+        public virtual DbSet<User> Users { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-                // dev
-                // optionsBuilder.UseSqlServer("Server=BNQLD355;Database=chamba_storage;User Id=sa;Password=develop3r;Trusted_Connection=True;");
-                // prod
-                optionsBuilder.UseSqlServer("Server=chambapp-storage.mssql.somee.com;Database=chambapp-storage;User Id=edelruhe_SQLLogin_1;Password=wbzui9ute7;");
+                optionsBuilder.UseSqlServer("Server=BNQLD355;Database=chamba_storage;User Id=sa; Password= develop3r;");
             }
         }
 
@@ -86,11 +83,13 @@ namespace chambapp.storage.Models
                     .IsUnicode(false)
                     .HasColumnName("economic_expectations_offered");
 
+                entity.Property(e => e.Idcandidate).HasColumnName("idcandidate");
+
                 entity.Property(e => e.Idcompany).HasColumnName("idcompany");
 
                 entity.Property(e => e.Idrecruiter).HasColumnName("idrecruiter");
 
-                entity.Property(e => e.Idstatus).HasColumnName("idstatus");
+                entity.Property(e => e.IdstatusCatalog).HasColumnName("idstatus_catalog");
 
                 entity.Property(e => e.InterviewDate).HasColumnName("interview_date");
 
@@ -103,48 +102,22 @@ namespace chambapp.storage.Models
 
                 entity.Property(e => e.ShipDate).HasColumnName("ship_date");
 
+                entity.HasOne(d => d.IdcandidateNavigation)
+                    .WithMany(p => p.InterviewIdcandidateNavigations)
+                    .HasForeignKey(d => d.Idcandidate)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("FK_interviews_CANDIDATES");
+
                 entity.HasOne(d => d.IdcompanyNavigation)
                     .WithMany(p => p.Interviews)
                     .HasForeignKey(d => d.Idcompany)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK_interviews_companies");
+                    .HasConstraintName("FK_interviews_COMPANIES");
 
                 entity.HasOne(d => d.IdrecruiterNavigation)
-                    .WithMany(p => p.Interviews)
+                    .WithMany(p => p.InterviewIdrecruiterNavigations)
                     .HasForeignKey(d => d.Idrecruiter)
                     .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK_interviews_recruiters");
-            });
-
-            modelBuilder.Entity<Recruiter>(entity =>
-            {
-                entity.ToTable("recruiters");
-
-                entity.HasIndex(e => e.Email, "unique_recruiters_email")
-                    .IsUnique();
-
-                entity.Property(e => e.Id).HasColumnName("id");
-
-                entity.Property(e => e.Email)
-                    .IsRequired()
-                    .HasMaxLength(280)
-                    .IsUnicode(false)
-                    .HasColumnName("email");
-
-                entity.Property(e => e.Name)
-                    .IsRequired()
-                    .HasMaxLength(280)
-                    .IsUnicode(false)
-                    .HasColumnName("name");
-
-                entity.Property(e => e.PhoneNumber)
-                    .HasMaxLength(50)
-                    .IsUnicode(false)
-                    .HasColumnName("phone_number");
-
-                entity.Property(e => e.ReplyEmail)
-                    .IsUnicode(false)
-                    .HasColumnName("reply_email");
+                    .HasConstraintName("FK_interviews_RECRUITERS");
             });
 
             modelBuilder.Entity<StatusCatalog>(entity =>
@@ -160,6 +133,65 @@ namespace chambapp.storage.Models
                     .HasMaxLength(280)
                     .IsUnicode(false)
                     .HasColumnName("description");
+            });
+
+            modelBuilder.Entity<User>(entity =>
+            {
+                entity.ToTable("users");
+
+                entity.HasIndex(e => new { e.Email, e.IdstatusCatalog }, "unique_index_users")
+                    .IsUnique();
+
+                entity.HasIndex(e => new { e.Email, e.IdstatusCatalog }, "uq_users")
+                    .IsUnique();
+
+                entity.Property(e => e.Id).HasColumnName("id");
+
+                entity.Property(e => e.ConfigurationEmail)
+                    .HasMaxLength(560)
+                    .IsUnicode(false)
+                    .HasColumnName("configuration_email");
+
+                entity.Property(e => e.Email)
+                    .IsRequired()
+                    .HasMaxLength(280)
+                    .IsUnicode(false)
+                    .HasColumnName("email");
+
+                entity.Property(e => e.IdstatusCatalog).HasColumnName("idstatus_catalog");
+
+                entity.Property(e => e.KeywordsEmail)
+                    .IsUnicode(false)
+                    .HasColumnName("keywords_email");
+
+                entity.Property(e => e.Name)
+                    .IsRequired()
+                    .HasMaxLength(280)
+                    .IsUnicode(false)
+                    .HasColumnName("name");
+
+                entity.Property(e => e.PhoneNumber)
+                    .HasMaxLength(100)
+                    .IsUnicode(false)
+                    .HasColumnName("phone_number");
+
+                entity.Property(e => e.Pwd)
+                    .HasMaxLength(280)
+                    .IsUnicode(false)
+                    .HasColumnName("pwd");
+
+                entity.Property(e => e.ReplyEmail)
+                    .HasColumnType("text")
+                    .HasColumnName("reply_email");
+
+                entity.Property(e => e.Subject)
+                    .HasMaxLength(60)
+                    .IsUnicode(false)
+                    .HasColumnName("subject");
+
+                entity.Property(e => e.TemplateEmail)
+                    .HasColumnType("text")
+                    .HasColumnName("template_email");
             });
 
             OnModelCreatingPartial(modelBuilder);
