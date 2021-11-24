@@ -41,10 +41,53 @@ namespace chambapp.bll.Interviews
             _googleMaps = googleMaps;
         }
 
+        public string AddRowFormat(InterviewRowDto item)
+        {
+            return $"{item.Email}|{item.RecruiterName}|{item.Company}|{item.Phone}|{item.EconomyExpectation}|{item.EconomyExpectationOffered}|{item.Provider}|;";
+        }
         public async Task<ResponseModel> InitProcess(IEnumerable<string> storageChambas)
         {
             int counter = 0;
             foreach (var interview in _getInterviewsFromTxt(storageChambas))
+            {
+                try
+                {
+                    var addInterview = await _interviewDal.CreateAsync(interview);
+                    if (addInterview.Id > 0)
+                    {
+                        counter++;
+                        // call service Google Maps Plataform
+                        string companyName = addInterview.IdcompanyNavigation.Name;
+                        RootGoogleMapsDto resultGmp = await _googleMaps.TextSearchAsync(companyName);
+                        var resultCompany = resultGmp.Results.FirstOrDefault();
+
+                        // Company 
+                        string jsonString = JsonSerializer.Serialize(resultGmp);
+
+                        addInterview.IdcompanyNavigation.Address = resultCompany.formatted_address;
+                        addInterview.IdcompanyNavigation.MapLat = resultCompany.geometry.location.lat.ToString();
+                        addInterview.IdcompanyNavigation.MapLong = resultCompany.geometry.location.lng.ToString();
+                        addInterview.IdcompanyNavigation.MapRawJson = jsonString;
+
+                        var mapCompany = _mainMapper.Mapper.Map<CompanyDto>(addInterview.IdcompanyNavigation);
+
+                        await _companyBll.SetAsync(mapCompany);
+
+                    }
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine($"{e.Message} ; {e.InnerException}");
+                }
+            }
+            _responseModel.Message = $"{storageChambas.Count()}  lines in file; {counter} new records were added";
+            return _responseModel;
+        }
+        public async Task<ResponseModel> InitProcess()
+        {
+            var getInterviewsProposal = _interviewDal.GetAllFilter((int)EnumStatusCatalog.InterviewProposal);
+            int counter = 0;
+            foreach (var interview in getInterviewsProposal)
             {
                 try
                 {
@@ -113,6 +156,10 @@ namespace chambapp.bll.Interviews
             }
         }
 
+        private IQueryable<Interview> _getInterviewsProposal()
+        {
+               
+        }
         public ResponseModel GetAll()
         {
             try
@@ -149,7 +196,8 @@ namespace chambapp.bll.Interviews
                     //InterviewDto interviewDto = MapperHelper.Map<InterviewDto,Interview>(result);
                     InterviewDto interviewDto = _mainMapper.Mapper.Map<InterviewDto>(result);
                     _responseModel.Datums = interviewDto;
-                    _responseModel.Flag = (int)EnumStatusCatalog.Ok;
+                    _responseModel.Flag
+                        = (int)EnumStatusCatalog.Ok;
                 }
             }
             catch (Exception ex)

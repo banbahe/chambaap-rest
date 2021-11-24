@@ -5,16 +5,17 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="bin\Debug\netcoreapp3.1\chambappsettings.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-    </Content>
+    <ProjectReference Include="..\chamba.bll\chambapp.bll.csproj" />
+    <ProjectReference Include="..\chamba.dal\chambapp.dal.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\chamba.bll\chambapp.bll.csproj" />
-    <ProjectReference Include="..\chamba.dal\chambapp.dal.csproj" />
+    <Folder Include="bin\Debug\netcoreapp3.1\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.Sqlite.Core" Version="6.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="5.0.12" />
   </ItemGroup>
 
 

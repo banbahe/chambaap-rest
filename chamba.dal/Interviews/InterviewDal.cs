@@ -16,6 +16,7 @@ namespace chambapp.dal.Interviews
     public class InterviewDal : IInterviewDal
     {
         private List<Interview> _listInterview { get; set; }
+        private IQueryable<Interview> _queryableInterview { get; set; }
         private Interview _interview { get; set; }
         public InterviewDal()
         {
@@ -36,6 +37,21 @@ namespace chambapp.dal.Interviews
                 //var list4 = context.Interviews.Include("companies").ToList();
             }
             return _listInterview;
+        }
+
+        public IQueryable<Interview> GetAllFilter(int idstatus = 0)
+        {
+            using (chamba_storageContext context = new chamba_storageContext())
+            {
+
+                if (idstatus > 0)
+                {
+                    _queryableInterview = context.Interviews.Include(t => t.IdcompanyNavigation)
+                    .Include(t => t.IdrecruiterNavigation).Where(ti => ti.Idstatus == idstatus).AsQueryable();
+                }
+
+            }
+            return _queryableInterview;
         }
 
         public async Task<Interview> CreateAsync(Interview interview)

@@ -138,3 +138,5 @@ C:\Github\chambaap-rest\chamba.services\obj\Release\netcoreapp3.1\chambapp.servi
 C:\Github\chambaap-rest\chamba.services\obj\Release\netcoreapp3.1\chambapp.services.dll
 C:\Github\chambaap-rest\chamba.services\obj\Release\netcoreapp3.1\chambapp.services.pdb
 C:\Github\chambaap-rest\chamba.services\obj\Release\netcoreapp3.1\chambapp.services.genruntimeconfig.cache
+C:\Github\chambaap-rest\chamba.services\bin\Release\netcoreapp3.1\assets\chambappsettings.json
+C:\Github\chambaap-rest\chamba.services\bin\Release\netcoreapp3.1\assets\chambas.json

@@ -158,5 +158,3 @@ C:\Github\chambaap-rest\chambapp.nunit.test\bin\Debug\netcoreapp3.1\appsettings.
 C:\Github\chambaap-rest\chambapp.nunit.test\bin\Debug\netcoreapp3.1\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Github\chambaap-rest\chambapp.nunit.test\bin\Debug\netcoreapp3.1\bin\Debug\appsettings.json
 C:\Github\chambaap-rest\chambapp.nunit.test\bin\Debug\netcoreapp3.1\assets\chambappsettings.json
-C:\Github\chambaap-rest\chambapp.nunit.test\bin\Debug\netcoreapp3.1\bin\Debug\netcoreapp3.1\assets\chambappsettings.json
-C:\Github\chambaap-rest\chambapp.nunit.test\bin\Debug\netcoreapp3.1\bin\Debug\netcoreapp3.1\chambappsettings.json

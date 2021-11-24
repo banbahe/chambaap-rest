@@ -154,3 +154,7 @@ C:\Github\chambaap-rest\chambapp.nunit.test\obj\Release\netcoreapp3.1\chambapp.n
 C:\Github\chambaap-rest\chambapp.nunit.test\obj\Release\netcoreapp3.1\chambapp.nunit.test.pdb
 C:\Github\chambaap-rest\chambapp.nunit.test\obj\Release\netcoreapp3.1\chambapp.nunit.test.genruntimeconfig.cache
 C:\Github\chambaap-rest\chambapp.nunit.test\obj\Release\netcoreapp3.1\chambapp.nunit.test.csproj.AssemblyReference.cache
+C:\Github\chambaap-rest\chambapp.nunit.test\bin\Release\netcoreapp3.1\assets\chambappsettings.json
+C:\Github\chambaap-rest\chambapp.nunit.test\bin\Release\netcoreapp3.1\appsettings.json
+C:\Github\chambaap-rest\chambapp.nunit.test\bin\Release\netcoreapp3.1\bin\Debug\appsettings.json
+C:\Github\chambaap-rest\chambapp.nunit.test\bin\Release\netcoreapp3.1\bin\Debug\netcoreapp3.1\appsettings.json

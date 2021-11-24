@@ -8,9 +8,13 @@ namespace chambapp.bll.Interviews
 {
     public interface IInterviewBll
     {
-        Task<ResponseModel> InitProcess(IEnumerable<string> storageChambas);
+        string AddRowFormat(InterviewRowDto item);
+
+        Task<ResponseModel> AddInterviewTemp(InterviewRowDto item);
+
+        Task<ResponseModel> InitProcess();
         ResponseModel GetAll();
         //List<InterviewDto> GetAll();
-        Task<ResponseModel>Create(InterviewDto interview);
+        Task<ResponseModel> Create(InterviewDto interview);
     }
 }

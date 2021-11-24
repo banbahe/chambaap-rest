@@ -6,5 +6,6 @@
         Ok = 1,
         SentFirstTime = 10, 
         ReplyFirstTime = 11,
+        InterviewProposal = 100,
     }
 }

@@ -1,8 +1,6 @@
 ﻿using System;
 using Microsoft.AspNetCore.Mvc;
-
 using System.Collections.Generic;
-
 using System.Threading.Tasks;
 using chambapp.bll.Interviews;
 using System.IO;
@@ -23,7 +21,7 @@ namespace chambapp.services.Controllers
     [ApiController]
     public class InterviewsController : ControllerBase
     {
-        
+
         private readonly IInterviewBll _interviewBll;
 
         public InterviewsController(IInterviewBll interviewBll) => _interviewBll = interviewBll;
@@ -39,16 +37,17 @@ namespace chambapp.services.Controllers
             return _interviewBll.GetAll();
         }
 
-        // GET api/<InterviewsController>/5
+        // GET api/<InterviewsController>/init
+        // init proccess 
+        // read all interviews when is proposal
+        // send email  and cv
+        // change status to 10 - Sent first time
+
         [HttpGet]
         [Route("init")]
         public async Task<ResponseModel> Init()
         {
-            // Read File
-            string fileRoot = "./assets/chambas.txt";
-            //var y = System.IO.File.ReadAllText(fileRoot) + "ReadAllText";
-            var linesInFile = System.IO.File.ReadLines(fileRoot);
-            return await _interviewBll.InitProcess(linesInFile);
+            return await _interviewBll.InitProcess();
         }
 
         // POST api/<InterviewsController>
@@ -56,8 +55,24 @@ namespace chambapp.services.Controllers
         // public async Task<IActionResult> PutEmployeeAsync([FromBody] Employee emp)
 
         [HttpPost]
-        public async Task Post([FromBody] string value)
+        [Route("row")]
+        public async Task<string> PostRow([FromBody] InterviewRowDto value)
         {
+            try
+            {
+                Helpers.DbContext dbContext = new Helpers.DbContext();
+                string fileRoot = "./assets/chambas.json";
+                if (!System.IO.File.Exists(fileRoot))
+                    System.IO.File.Create(fileRoot);
+                
+                await System.IO.File.AppendAllTextAsync(fileRoot, _interviewBll.AddRowFormat(value) + Environment.NewLine);
+
+                return "OK";
+            }
+            catch (Exception ex)
+            {
+                return $"{ex.Message} / {ex.InnerException.Message} ";
+            }
         }
 
         // PUT api/<InterviewsController>/5
