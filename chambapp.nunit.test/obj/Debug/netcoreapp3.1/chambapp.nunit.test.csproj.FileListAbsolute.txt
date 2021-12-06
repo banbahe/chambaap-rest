@@ -1,11 +1,12 @@
 C:\Github\chambaap-rest\chambapp.nunit.test\bin\Debug\netcoreapp3.1\CoverletSourceRootsMapping
+C:\Github\chambaap-rest\chambapp.nunit.test\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Github\chambaap-rest\chambapp.nunit.test\bin\Debug\netcoreapp3.1\assets\chambappsettings.json
 C:\Github\chambaap-rest\chambapp.nunit.test\bin\Debug\netcoreapp3.1\testhost.exe
 C:\Github\chambaap-rest\chambapp.nunit.test\bin\Debug\netcoreapp3.1\testhost.dll
 C:\Github\chambaap-rest\chambapp.nunit.test\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.PlatformAbstractions.dll
-C:\Github\chambaap-rest\chambapp.nunit.test\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Github\chambaap-rest\chambapp.nunit.test\bin\Debug\netcoreapp3.1\bin\Debug\appsettings.json
 C:\Github\chambaap-rest\chambapp.nunit.test\bin\Debug\netcoreapp3.1\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Github\chambaap-rest\chambapp.nunit.test\bin\Debug\netcoreapp3.1\bin\Debug\netcoreapp3.1\assets\appsettings.json
 C:\Github\chambaap-rest\chambapp.nunit.test\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.dll
 C:\Github\chambaap-rest\chambapp.nunit.test\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.pdb
 C:\Github\chambaap-rest\chambapp.nunit.test\bin\Debug\netcoreapp3.1\nunit.engine.dll
@@ -156,18 +157,10 @@ C:\Github\chambaap-rest\chambapp.nunit.test\obj\Debug\netcoreapp3.1\chambapp.nun
 C:\Github\chambaap-rest\chambapp.nunit.test\obj\Debug\netcoreapp3.1\chambapp.nunit.test.csproj.CopyComplete
 C:\Github\chambaap-rest\chambapp.nunit.test\obj\Debug\netcoreapp3.1\chambapp.nunit.test.dll
 C:\Github\chambaap-rest\chambapp.nunit.test\obj\Debug\netcoreapp3.1\chambapp.nunit.test.pdb
-C:\Github\chambaap-rest\chambapp.nunit.test\bin\Debug\netcoreapp3.1\bin\Debug\netcoreapp3.1\assets\appsettings.json
+C:\Github\chambaap-rest\chambapp.nunit.test\bin\Debug\netcoreapp3.1\bin\Debug\netcoreapp3.1\assets\chambappsettings.json
 C:\Github\chambaap-rest\chambapp.nunit.test\bin\Debug\netcoreapp3.1\chambapp.nunit.test.deps.json
 C:\Github\chambaap-rest\chambapp.nunit.test\bin\Debug\netcoreapp3.1\chambapp.nunit.test.runtimeconfig.json
 C:\Github\chambaap-rest\chambapp.nunit.test\bin\Debug\netcoreapp3.1\chambapp.nunit.test.runtimeconfig.dev.json
 C:\Github\chambaap-rest\chambapp.nunit.test\bin\Debug\netcoreapp3.1\chambapp.nunit.test.dll
 C:\Github\chambaap-rest\chambapp.nunit.test\bin\Debug\netcoreapp3.1\chambapp.nunit.test.pdb
 C:\Github\chambaap-rest\chambapp.nunit.test\obj\Debug\netcoreapp3.1\chambapp.nunit.test.genruntimeconfig.cache
-<<<<<<< HEAD
-=======
-C:\Github\chambaap-rest\chambapp.nunit.test\obj\Debug\netcoreapp3.1\chambapp.nunit.test.csproj.AssemblyReference.cache
-C:\Github\chambaap-rest\chambapp.nunit.test\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Github\chambaap-rest\chambapp.nunit.test\bin\Debug\netcoreapp3.1\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Github\chambaap-rest\chambapp.nunit.test\bin\Debug\netcoreapp3.1\bin\Debug\appsettings.json
-C:\Github\chambaap-rest\chambapp.nunit.test\bin\Debug\netcoreapp3.1\assets\chambappsettings.json
->>>>>>> bb87007c9d35a0e01c209e330c7cb5dbb2983320
