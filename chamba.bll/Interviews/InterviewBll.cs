@@ -48,7 +48,16 @@ namespace chambapp.bll.Interviews
             _mainMapper = mainMapper;
             _googleMaps = googleMaps;
         }
+<<<<<<< HEAD
         public ResponseModel GetPerFilter(int all = 0, int id = 0, int idstatus = 0, int iduser = 0, int idcompany = 0)
+=======
+
+        public string AddRowFormat(InterviewRowDto item)
+        {
+            return $"{item.Email}|{item.RecruiterName}|{item.Company}|{item.Phone}|{item.EconomyExpectation}|{item.EconomyExpectationOffered}|{item.Provider}|;";
+        }
+        public async Task<ResponseModel> InitProcess(IEnumerable<string> storageChambas)
+>>>>>>> bb87007c9d35a0e01c209e330c7cb5dbb2983320
         {
             try
             {
@@ -73,7 +82,51 @@ namespace chambapp.bll.Interviews
             }
             return _responseModel;
         }
+<<<<<<< HEAD
         public string ComposeEmail(int idinterview, Interview paramInterview = null)
+=======
+        public async Task<ResponseModel> InitProcess()
+        {
+            var getInterviewsProposal = _interviewDal.GetAllFilter((int)EnumStatusCatalog.InterviewProposal);
+            int counter = 0;
+            foreach (var interview in getInterviewsProposal)
+            {
+                try
+                {
+                    var addInterview = await _interviewDal.CreateAsync(interview);
+                    if (addInterview.Id > 0)
+                    {
+                        counter++;
+                        // call service Google Maps Plataform
+                        string companyName = addInterview.IdcompanyNavigation.Name;
+                        RootGoogleMapsDto resultGmp = await _googleMaps.TextSearchAsync(companyName);
+                        var resultCompany = resultGmp.Results.FirstOrDefault();
+
+                        // Company 
+                        string jsonString = JsonSerializer.Serialize(resultGmp);
+
+                        addInterview.IdcompanyNavigation.Address = resultCompany.formatted_address;
+                        addInterview.IdcompanyNavigation.MapLat = resultCompany.geometry.location.lat.ToString();
+                        addInterview.IdcompanyNavigation.MapLong = resultCompany.geometry.location.lng.ToString();
+                        addInterview.IdcompanyNavigation.MapRawJson = jsonString;
+
+                        var mapCompany = _mainMapper.Mapper.Map<CompanyDto>(addInterview.IdcompanyNavigation);
+
+                        await _companyBll.SetAsync(mapCompany);
+
+                    }
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine($"{e.Message} ; {e.InnerException}");
+                }
+            }
+            _responseModel.Message = $"{storageChambas.Count()}  lines in file; {counter} new records were added";
+            return _responseModel;
+        }
+
+        private IEnumerable<Interview> _getInterviewsFromTxt(IEnumerable<string> storageChambas)
+>>>>>>> bb87007c9d35a0e01c209e330c7cb5dbb2983320
         {
             string htmltemplate = string.Empty;
             Interview interviewData;
@@ -134,7 +187,16 @@ namespace chambapp.bll.Interviews
             }
             return htmltemplate;
         }
+<<<<<<< HEAD
         public async Task<ResponseModel> CreateAsync(InterviewDto interview)
+=======
+
+        private IQueryable<Interview> _getInterviewsProposal()
+        {
+               
+        }
+        public ResponseModel GetAll()
+>>>>>>> bb87007c9d35a0e01c209e330c7cb5dbb2983320
         {
             try
             {
@@ -180,6 +242,7 @@ namespace chambapp.bll.Interviews
             {
                 foreach (var interview in _interviewDal.GetAllFilter(idstatus: (int)EnumStatusCatalog.InterviewProposal))
                 {
+<<<<<<< HEAD
 
                     string htmlTemplate = ComposeEmail(interview.Id, interview);
                     bool flagEmail = _emailService.Send(from: interview.IdcandidateNavigation.Email,
@@ -210,6 +273,13 @@ namespace chambapp.bll.Interviews
 
                     //    var mapCompany = _mainMapper.Mapper.Map<CompanyDto>(addInterview.IdcompanyNavigation);
 
+=======
+                    //InterviewDto interviewDto = MapperHelper.Map<InterviewDto,Interview>(result);
+                    InterviewDto interviewDto = _mainMapper.Mapper.Map<InterviewDto>(result);
+                    _responseModel.Datums = interviewDto;
+                    _responseModel.Flag
+                        = (int)EnumStatusCatalog.Ok;
+>>>>>>> bb87007c9d35a0e01c209e330c7cb5dbb2983320
                 }
                 return true;
             }

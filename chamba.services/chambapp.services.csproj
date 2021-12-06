@@ -11,6 +11,14 @@
 
   <ItemGroup>
     <Folder Include="bin\Debug\netcoreapp3.1\" />
+<<<<<<< HEAD
+=======
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.Sqlite.Core" Version="6.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="5.0.12" />
+>>>>>>> bb87007c9d35a0e01c209e330c7cb5dbb2983320
   </ItemGroup>
 
 

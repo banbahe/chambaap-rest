@@ -2,6 +2,7 @@
 i:{00000000-0000-0000-0000-000000000000}:ChambappSolution.sln
 ++chambapp.dal
 i:{00000000-0000-0000-0000-000000000000}:chambapp.dal
+<<<<<<< HEAD
 i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chamba.dal\bin\debug\netcoreapp3.1\chambapp.dal.dll
 i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.dal\bin\debug\netcoreapp3.1\chambapp.dal.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.dal\bin\debug\netcoreapp3.1\chambapp.dal.dll
@@ -12,12 +13,25 @@ i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:>2541
 i:{e2c650d4-30f8-4afe-9616-ce72c30db262}:>479
 i:{13b5444e-d86c-44be-b90a-9927195fd85e}:>332
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:>2401
+=======
+i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.dal\chambapp.dal.csproj
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chamba.dal\bin\debug\netcoreapp3.1\chambapp.dal.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.dal\bin\debug\netcoreapp3.1\chambapp.dal.dll
+++Dependencies
+i:{5e9a7ba4-ad89-49c8-a472-235f8c14d692}:>636
+i:{4a51aa0b-fccd-493b-b0ae-3a638e2d1db5}:>797
+i:{e2c650d4-30f8-4afe-9616-ce72c30db262}:>473
+i:{13b5444e-d86c-44be-b90a-9927195fd85e}:>401
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:>2071
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:>1521
+>>>>>>> bb87007c9d35a0e01c209e330c7cb5dbb2983320
 ++Companies
 i:{5e9a7ba4-ad89-49c8-a472-235f8c14d692}:c:\github\chambaap-rest\chamba.dal\companies\
 i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.bll\companies\
 ++Interviews
 i:{5e9a7ba4-ad89-49c8-a472-235f8c14d692}:c:\github\chambaap-rest\chamba.dal\interviews\
 i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.bll\interviews\
+<<<<<<< HEAD
 ++IInterviewDal.cs
 i:{5e9a7ba4-ad89-49c8-a472-235f8c14d692}:c:\github\chambaap-rest\chamba.dal\interviews\iinterviewdal.cs
 ++InterviewDal.cs
@@ -28,6 +42,12 @@ i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.bll\user
 ++Analyzers
 i:{5e9a7ba4-ad89-49c8-a472-235f8c14d692}:analyzers
 i:{4a51aa0b-fccd-493b-b0ae-3a638e2d1db5}:analyzers
+=======
+++Analyzers
+i:{5e9a7ba4-ad89-49c8-a472-235f8c14d692}:analyzers
+i:{4a51aa0b-fccd-493b-b0ae-3a638e2d1db5}:analyzers
+i:{13b5444e-d86c-44be-b90a-9927195fd85e}:analyzers
+>>>>>>> bb87007c9d35a0e01c209e330c7cb5dbb2983320
 i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:analyzers
 i:{13b5444e-d86c-44be-b90a-9927195fd85e}:analyzers
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:analyzers
@@ -40,18 +60,34 @@ i:{13b5444e-d86c-44be-b90a-9927195fd85e}:frameworks
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:frameworks
 ++Projects
 i:{5e9a7ba4-ad89-49c8-a472-235f8c14d692}:projects
+<<<<<<< HEAD
 i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:projects
 i:{13b5444e-d86c-44be-b90a-9927195fd85e}:projects
+=======
+i:{13b5444e-d86c-44be-b90a-9927195fd85e}:projects
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:projects
+>>>>>>> bb87007c9d35a0e01c209e330c7cb5dbb2983320
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:projects
 ++CompanyDal.cs
 i:{5e9a7ba4-ad89-49c8-a472-235f8c14d692}:c:\github\chambaap-rest\chamba.dal\companies\companydal.cs
 ++ICompanyDal.cs
 i:{5e9a7ba4-ad89-49c8-a472-235f8c14d692}:c:\github\chambaap-rest\chamba.dal\companies\icompanydal.cs
+<<<<<<< HEAD
 ++IUserDal.cs
 i:{5e9a7ba4-ad89-49c8-a472-235f8c14d692}:c:\github\chambaap-rest\chamba.dal\users\iuserdal.cs
 ++Microsoft.EntityFrameworkCore.Analyzers
 i:{5e9a7ba4-ad89-49c8-a472-235f8c14d692}:c:\users\bnql\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.11\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
 i:{4a51aa0b-fccd-493b-b0ae-3a638e2d1db5}:c:\users\bnql\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.11\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+=======
+++IInterviewDal.cs
+i:{5e9a7ba4-ad89-49c8-a472-235f8c14d692}:c:\github\chambaap-rest\chamba.dal\interviews\iinterviewdal.cs
+++InterviewDal.cs
+i:{5e9a7ba4-ad89-49c8-a472-235f8c14d692}:c:\github\chambaap-rest\chamba.dal\interviews\interviewdal.cs
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{5e9a7ba4-ad89-49c8-a472-235f8c14d692}:c:\users\bnql\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.11\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{4a51aa0b-fccd-493b-b0ae-3a638e2d1db5}:c:\users\bnql\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.11\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\users\bnql\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.11\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+>>>>>>> bb87007c9d35a0e01c209e330c7cb5dbb2983320
 i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\users\bnql\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.11\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
 i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\users\bnql\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.11\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\users\bnql\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.11\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
@@ -73,6 +109,7 @@ i:{4a51aa0b-fccd-493b-b0ae-3a638e2d1db5}:c:\github\chambaap-rest\chamba.storage\
 i:{4a51aa0b-fccd-493b-b0ae-3a638e2d1db5}:c:\github\chambaap-rest\chamba.storage\models\company.cs
 ++Interview.cs
 i:{4a51aa0b-fccd-493b-b0ae-3a638e2d1db5}:c:\github\chambaap-rest\chamba.storage\models\interview.cs
+<<<<<<< HEAD
 ++StatusCatalog.cs
 i:{4a51aa0b-fccd-493b-b0ae-3a638e2d1db5}:c:\github\chambaap-rest\chamba.storage\models\statuscatalog.cs
 ++User.cs
@@ -175,6 +212,22 @@ i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:>2582
 i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chamba.bll\bin\debug\netcoreapp3.1\chambapp.bll.dll
 i:{00000000-0000-0000-0000-000000000000}:chambapp.bll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.bll\bin\debug\netcoreapp3.1\chambapp.bll.dll
+=======
+++Recruiter.cs
+i:{4a51aa0b-fccd-493b-b0ae-3a638e2d1db5}:c:\github\chambaap-rest\chamba.storage\models\recruiter.cs
+++StatusCatalog.cs
+i:{4a51aa0b-fccd-493b-b0ae-3a638e2d1db5}:c:\github\chambaap-rest\chamba.storage\models\statuscatalog.cs
+++Packages
+i:{4a51aa0b-fccd-493b-b0ae-3a638e2d1db5}:packages
+i:{13b5444e-d86c-44be-b90a-9927195fd85e}:packages
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:packages
+++Microsoft.EntityFrameworkCore (5.0.11)
+i:{4a51aa0b-fccd-493b-b0ae-3a638e2d1db5}:>2084
+++Microsoft.EntityFrameworkCore.SqlServer (5.0.11)
+i:{4a51aa0b-fccd-493b-b0ae-3a638e2d1db5}:>2085
+++Microsoft.EntityFrameworkCore.Tools (5.0.11)
+i:{4a51aa0b-fccd-493b-b0ae-3a638e2d1db5}:>2086
+>>>>>>> bb87007c9d35a0e01c209e330c7cb5dbb2983320
 ++chambapp.dto
 i:{00000000-0000-0000-0000-000000000000}:chambapp.dto
 i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.dto\bin\debug\netcoreapp3.1\chambapp.dto.dll
@@ -192,6 +245,7 @@ i:{e2c650d4-30f8-4afe-9616-ce72c30db262}:c:\github\chambaap-rest\chamba.dto\recr
 i:{e2c650d4-30f8-4afe-9616-ce72c30db262}:c:\github\chambaap-rest\chamba.dto\responsemodel.cs
 ++RootGoogleMapsDto.cs
 i:{e2c650d4-30f8-4afe-9616-ce72c30db262}:c:\github\chambaap-rest\chamba.dto\rootgooglemapsdto.cs
+<<<<<<< HEAD
 ++Imports
 i:{13b5444e-d86c-44be-b90a-9927195fd85e}:>226
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:>1585
@@ -202,6 +256,188 @@ i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.bll\auto
 i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.bll\companies\companybll.cs
 ++ICompanyBll.cs
 i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.bll\companies\icompanybll.cs
+=======
+++chambapp.bll
+i:{00000000-0000-0000-0000-000000000000}:chambapp.bll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chamba.bll\bin\debug\netcoreapp3.1\chambapp.bll.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.bll\bin\debug\netcoreapp3.1\chambapp.bll.dll
+++Imports
+i:{13b5444e-d86c-44be-b90a-9927195fd85e}:>113
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:>1708
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:>1061
+++assets
+i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.bll\assets\
+i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.bll\bin\release\netcoreapp3.1\assets\
+i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.bll\bin\release\netcoreapp3.1\bin\debug\netcoreapp3.1\assets\
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\assets\
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\assets\
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\bin\debug\netcoreapp3.1\assets\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\assets\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\assets\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\bin\debug\netcoreapp3.1\assets\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\assets\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\bin\debug\netcoreapp3.1\assets\
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\assets\
+i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.bll\bin\debug\netcoreapp3.1\assets\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\assets\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\assets\
+++chambappsettings.json
+i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.bll\assets\chambappsettings.json
+i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.bll\bin\release\netcoreapp3.1\assets\chambappsettings.json
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\assets\chambappsettings.json
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\assets\chambappsettings.json
+i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.bll\bin\debug\netcoreapp3.1\assets\chambappsettings.json
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\assets\chambappsettings.json
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\assets\chambappsettings.json
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\assets\chambappsettings.json
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\assets\chambappsettings.json
+++AutoMapper
+i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.bll\automapper\
+++bin
+i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.bll\bin\
+i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.bll\bin\debug\netcoreapp3.1\bin\
+i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.bll\bin\release\netcoreapp3.1\bin\
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\bin\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\bin\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\bin\
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\bin\
+++Debug
+i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.bll\bin\debug\
+i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.bll\bin\debug\netcoreapp3.1\bin\debug\
+i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.bll\obj\debug\
+i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.bll\bin\release\netcoreapp3.1\bin\debug\
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\bin\debug\
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\obj\debug\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\bin\debug\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\debug\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\bin\debug\
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\bin\debug\
+++netcoreapp3.1
+i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.bll\bin\debug\netcoreapp3.1\
+i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.bll\bin\debug\netcoreapp3.1\bin\debug\netcoreapp3.1\
+i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.bll\bin\release\netcoreapp3.1\
+i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.bll\obj\debug\netcoreapp3.1\
+i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.bll\obj\release\netcoreapp3.1\
+i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.bll\bin\release\netcoreapp3.1\bin\debug\netcoreapp3.1\
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\bin\debug\netcoreapp3.1\
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\obj\debug\netcoreapp3.1\
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\obj\release\netcoreapp3.1\
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\bin\debug\netcoreapp3.1\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\debug\netcoreapp3.1\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\bin\debug\netcoreapp3.1\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\bin\debug\netcoreapp3.1\
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\runtimes\unix\lib\netcoreapp3.1\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\runtimes\win\lib\netcoreapp3.1\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\runtimes\unix\lib\netcoreapp3.1\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\runtimes\win\lib\netcoreapp3.1\
+++chambas.txt
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\assets\chambas.txt
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\assets\chambas.txt
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\assets\chambas.txt
+++chambapp.bll.deps.json
+i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.bll\bin\debug\netcoreapp3.1\chambapp.bll.deps.json
+i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.bll\bin\release\netcoreapp3.1\chambapp.bll.deps.json
+++chambapp.bll.dll
+i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.bll\bin\debug\netcoreapp3.1\chambapp.bll.dll
+i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.bll\bin\release\netcoreapp3.1\chambapp.bll.dll
+i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.bll\obj\debug\netcoreapp3.1\chambapp.bll.dll
+i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.bll\obj\release\netcoreapp3.1\chambapp.bll.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\chambapp.bll.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\chambapp.bll.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\chambapp.bll.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\chambapp.bll.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\chambapp.bll.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\chambapp.bll.dll
+++chambapp.bll.pdb
+i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.bll\bin\debug\netcoreapp3.1\chambapp.bll.pdb
+i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.bll\bin\release\netcoreapp3.1\chambapp.bll.pdb
+i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.bll\obj\debug\netcoreapp3.1\chambapp.bll.pdb
+i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.bll\obj\release\netcoreapp3.1\chambapp.bll.pdb
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\chambapp.bll.pdb
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\chambapp.bll.pdb
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\chambapp.bll.pdb
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\chambapp.bll.pdb
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\chambapp.bll.pdb
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\chambapp.bll.pdb
+++chambapp.dal.dll
+i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.bll\bin\debug\netcoreapp3.1\chambapp.dal.dll
+i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.bll\bin\release\netcoreapp3.1\chambapp.dal.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\chambapp.dal.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\chambapp.dal.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\chambapp.dal.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\chambapp.dal.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\chambapp.dal.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\chambapp.dal.dll
+++chambapp.dal.pdb
+i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.bll\bin\debug\netcoreapp3.1\chambapp.dal.pdb
+i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.bll\bin\release\netcoreapp3.1\chambapp.dal.pdb
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\chambapp.dal.pdb
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\chambapp.dal.pdb
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\chambapp.dal.pdb
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\chambapp.dal.pdb
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\chambapp.dal.pdb
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\chambapp.dal.pdb
+++chambapp.dto.dll
+i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.bll\bin\debug\netcoreapp3.1\chambapp.dto.dll
+i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.bll\bin\release\netcoreapp3.1\chambapp.dto.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\chambapp.dto.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\chambapp.dto.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\chambapp.dto.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\chambapp.dto.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\chambapp.dto.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\chambapp.dto.dll
+++chambapp.dto.pdb
+i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.bll\bin\debug\netcoreapp3.1\chambapp.dto.pdb
+i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.bll\bin\release\netcoreapp3.1\chambapp.dto.pdb
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\chambapp.dto.pdb
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\chambapp.dto.pdb
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\chambapp.dto.pdb
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\chambapp.dto.pdb
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\chambapp.dto.pdb
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\chambapp.dto.pdb
+++chambapp.storage.dll
+i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.bll\bin\debug\netcoreapp3.1\chambapp.storage.dll
+i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.bll\bin\release\netcoreapp3.1\chambapp.storage.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\chambapp.storage.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\chambapp.storage.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\chambapp.storage.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\chambapp.storage.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\chambapp.storage.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\chambapp.storage.dll
+++chambapp.storage.pdb
+i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.bll\bin\debug\netcoreapp3.1\chambapp.storage.pdb
+i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.bll\bin\release\netcoreapp3.1\chambapp.storage.pdb
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\chambapp.storage.pdb
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\chambapp.storage.pdb
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\chambapp.storage.pdb
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\chambapp.storage.pdb
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\chambapp.storage.pdb
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\chambapp.storage.pdb
+++Release
+i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.bll\bin\release\
+i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.bll\obj\release\
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\obj\release\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\
+>>>>>>> bb87007c9d35a0e01c209e330c7cb5dbb2983320
 ++Helpers
 i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.bll\helpers\
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\helpers\
@@ -232,6 +468,7 @@ i:{e2c650d4-30f8-4afe-9616-ce72c30db262}:c:\program files\dotnet\sdk\6.0.100\sdk
 ++Sdk.targets
 i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\sdk\sdk.targets
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\sdk\sdk.targets
+<<<<<<< HEAD
 i:{e2c650d4-30f8-4afe-9616-ce72c30db262}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\sdk\sdk.targets
 ++chambappsettings.json
 i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.bll\assets\chambappsettings.json
@@ -249,6 +486,14 @@ i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\
 i:{e2c650d4-30f8-4afe-9616-ce72c30db262}:c:\github\chambaap-rest\chamba.dto\bin\release\
 i:{e2c650d4-30f8-4afe-9616-ce72c30db262}:c:\github\chambaap-rest\chamba.dto\obj\release\
+=======
+++MainMapper.cs
+i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.bll\automapper\mainmapper.cs
+++CompanyBll.cs
+i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.bll\companies\companybll.cs
+++ICompanyBll.cs
+i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.bll\companies\icompanybll.cs
+>>>>>>> bb87007c9d35a0e01c209e330c7cb5dbb2983320
 ++DateTimeHelper.cs
 i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.bll\helpers\datetimehelper.cs
 ++EnumStatusCatalog.cs
@@ -291,9 +536,13 @@ i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.bll\serv
 ++IUserBll.cs
 i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.bll\users\iuserbll.cs
 ++AutoMapper (9.0.0)
+<<<<<<< HEAD
 i:{13b5444e-d86c-44be-b90a-9927195fd85e}:>2556
 ++MailKit (2.15.0)
 i:{13b5444e-d86c-44be-b90a-9927195fd85e}:>2557
+=======
+i:{13b5444e-d86c-44be-b90a-9927195fd85e}:>2075
+>>>>>>> bb87007c9d35a0e01c209e330c7cb5dbb2983320
 ++Microsoft.Common.props
 i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\program files\microsoft visual studio\2022\enterprise\msbuild\current\microsoft.common.props
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\program files\microsoft visual studio\2022\enterprise\msbuild\current\microsoft.common.props
@@ -321,7 +570,10 @@ i:{e2c650d4-30f8-4afe-9616-ce72c30db262}:c:\program files\dotnet\sdk\6.0.100\sdk
 ++NuGet.Build.Tasks.Pack.targets
 i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\program files\dotnet\sdk\6.0.100\sdks\nuget.build.tasks.pack\build\nuget.build.tasks.pack.targets
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\program files\dotnet\sdk\6.0.100\sdks\nuget.build.tasks.pack\build\nuget.build.tasks.pack.targets
+<<<<<<< HEAD
 i:{e2c650d4-30f8-4afe-9616-ce72c30db262}:c:\program files\dotnet\sdk\6.0.100\sdks\nuget.build.tasks.pack\build\nuget.build.tasks.pack.targets
+=======
+>>>>>>> bb87007c9d35a0e01c209e330c7cb5dbb2983320
 ++Microsoft.LiveUnitTesting.props
 i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\program files\microsoft visual studio\2022\enterprise\msbuild\current\imports\microsoft.common.props\importbefore\microsoft.liveunittesting.props
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\program files\microsoft visual studio\2022\enterprise\msbuild\current\imports\microsoft.common.props\importbefore\microsoft.liveunittesting.props
@@ -500,6 +752,7 @@ i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\program files\dotnet\sdk\6.0.100\sdk
 i:{e2c650d4-30f8-4afe-9616-ce72c30db262}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.conflictresolution.targets
 ++Microsoft.NET.Sdk.CSharp.targets
 i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.csharp.targets
+<<<<<<< HEAD
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.csharp.targets
 i:{e2c650d4-30f8-4afe-9616-ce72c30db262}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.csharp.targets
 ++Microsoft.NET.ILLink.targets
@@ -581,6 +834,26 @@ i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.bll\bin\
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\chambapp.storage.pdb
 i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.bll\bin\debug\netcoreapp3.1\chambapp.storage.pdb
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\chambapp.storage.pdb
+=======
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.csharp.targets
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.csharp.targets
+++Microsoft.NET.ILLink.targets
+i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.illink.targets
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.illink.targets
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.illink.targets
+++Microsoft.NET.Sdk.Analyzers.targets
+i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.analyzers.targets
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.analyzers.targets
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.analyzers.targets
+++Microsoft.NET.Windows.targets
+i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.windows.targets
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.windows.targets
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.windows.targets
+++Microsoft.NET.Compatibility.Common.targets
+i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.compatibility.common.targets
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.compatibility.common.targets
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.compatibility.common.targets
+>>>>>>> bb87007c9d35a0e01c209e330c7cb5dbb2983320
 ++.NETCoreApp,Version=v3.1.AssemblyAttributes.cs
 i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.bll\obj\debug\netcoreapp3.1\.netcoreapp,version=v3.1.assemblyattributes.cs
 i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\github\chambaap-rest\chamba.bll\obj\release\netcoreapp3.1\.netcoreapp,version=v3.1.assemblyattributes.cs
@@ -812,6 +1085,7 @@ i:{e2c650d4-30f8-4afe-9616-ce72c30db262}:c:\program files\microsoft visual studi
 ++Microsoft.QualityTools.Testing.Fakes.targets
 i:{13b5444e-d86c-44be-b90a-9927195fd85e}:c:\program files\microsoft visual studio\2022\enterprise\msbuild\microsoft\visualstudio\v17.0\fakes\microsoft.qualitytools.testing.fakes.targets
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\program files\microsoft visual studio\2022\enterprise\msbuild\microsoft\visualstudio\v17.0\fakes\microsoft.qualitytools.testing.fakes.targets
+<<<<<<< HEAD
 i:{e2c650d4-30f8-4afe-9616-ce72c30db262}:c:\program files\microsoft visual studio\2022\enterprise\msbuild\microsoft\visualstudio\v17.0\fakes\microsoft.qualitytools.testing.fakes.targets
 ++chambapp.services
 i:{00000000-0000-0000-0000-000000000000}:chambapp.services
@@ -916,9 +1190,74 @@ i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\runtimes\
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\runtimes\
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\runtimes\
+=======
+++chambapp.nunit.test
+i:{00000000-0000-0000-0000-000000000000}:chambapp.nunit.test
+++appsettings.json
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\bin\debug\netcoreapp3.1\appsettings.json
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\bin\debug\appsettings.json
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\appsettings.json
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\appsettings.json
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\appsettings.json
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\appsettings.json
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\appsettings.json
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\appsettings.json
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\bin\debug\appsettings.json
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\bin\debug\netcoreapp3.1\appsettings.json
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\appsettings.json
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\appsettings.json
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\appsettings.json
+++cs
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\cs\
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\cs\
+++de
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\de\
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\de\
+++es
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\es\
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\es\
+++fr
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\fr\
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\fr\
+++it
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\it\
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\it\
+++ja
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\ja\
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\ja\
+++ko
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\ko\
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\ko\
+++pl
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\pl\
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\pl\
+++pt-BR
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\pt-br\
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\pt-br\
+++ru
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\ru\
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\ru\
+++runtimes
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\runtimes\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\runtimes\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\runtimes\
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\runtimes\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\runtimes\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\runtimes\
+++tr
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\tr\
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\tr\
+++zh-Hans
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\zh-hans\
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\zh-hans\
+++zh-Hant
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\zh-hant\
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\zh-hant\
+>>>>>>> bb87007c9d35a0e01c209e330c7cb5dbb2983320
 ++AutoMapper.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\automapper.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\automapper.dll
+<<<<<<< HEAD
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\automapper.dll
 ++BouncyCastle.Crypto.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\bouncycastle.crypto.dll
@@ -953,6 +1292,33 @@ i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services
 ++MailKit.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\mailkit.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\mailkit.dll
+=======
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\automapper.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\automapper.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\automapper.dll
+++chambapp.nunit.test.deps.json
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\chambapp.nunit.test.deps.json
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\chambapp.nunit.test.deps.json
+++chambapp.nunit.test.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\chambapp.nunit.test.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\obj\debug\netcoreapp3.1\chambapp.nunit.test.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\obj\release\netcoreapp3.1\chambapp.nunit.test.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\chambapp.nunit.test.dll
+++chambapp.nunit.test.pdb
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\chambapp.nunit.test.pdb
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\obj\debug\netcoreapp3.1\chambapp.nunit.test.pdb
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\obj\release\netcoreapp3.1\chambapp.nunit.test.pdb
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\chambapp.nunit.test.pdb
+++chambapp.nunit.test.runtimeconfig.dev.json
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\chambapp.nunit.test.runtimeconfig.dev.json
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\chambapp.nunit.test.runtimeconfig.dev.json
+++chambapp.nunit.test.runtimeconfig.json
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\chambapp.nunit.test.runtimeconfig.json
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\chambapp.nunit.test.runtimeconfig.json
+++CoverletSourceRootsMapping
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\coverletsourcerootsmapping
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\coverletsourcerootsmapping
+>>>>>>> bb87007c9d35a0e01c209e330c7cb5dbb2983320
 ++Microsoft.Data.SqlClient.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\microsoft.data.sqlclient.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\runtimes\unix\lib\netcoreapp3.1\microsoft.data.sqlclient.dll
@@ -962,126 +1328,796 @@ i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\microsoft.data.sqlclient.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\microsoft.data.sqlclient.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\microsoft.data.sqlclient.dll
+<<<<<<< HEAD
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\microsoft.data.sqlclient.dll
+=======
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\microsoft.data.sqlclient.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\microsoft.data.sqlclient.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\microsoft.data.sqlclient.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\microsoft.data.sqlclient.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\microsoft.data.sqlclient.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\runtimes\unix\lib\netcoreapp3.1\microsoft.data.sqlclient.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\runtimes\win\lib\netcoreapp3.1\microsoft.data.sqlclient.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\runtimes\unix\lib\netcoreapp3.1\microsoft.data.sqlclient.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\runtimes\win\lib\netcoreapp3.1\microsoft.data.sqlclient.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\microsoft.data.sqlclient.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\microsoft.data.sqlclient.dll
+++Microsoft.DotNet.InternalAbstractions.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\microsoft.dotnet.internalabstractions.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\microsoft.dotnet.internalabstractions.dll
+>>>>>>> bb87007c9d35a0e01c209e330c7cb5dbb2983320
 ++Microsoft.EntityFrameworkCore.Abstractions.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\microsoft.entityframeworkcore.abstractions.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\microsoft.entityframeworkcore.abstractions.dll
+<<<<<<< HEAD
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\microsoft.entityframeworkcore.abstractions.dll
+=======
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\microsoft.entityframeworkcore.abstractions.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\microsoft.entityframeworkcore.abstractions.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\microsoft.entityframeworkcore.abstractions.dll
+>>>>>>> bb87007c9d35a0e01c209e330c7cb5dbb2983320
 ++Microsoft.EntityFrameworkCore.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\microsoft.entityframeworkcore.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\microsoft.entityframeworkcore.dll
+<<<<<<< HEAD
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\microsoft.entityframeworkcore.dll
+=======
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\microsoft.entityframeworkcore.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\microsoft.entityframeworkcore.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\microsoft.entityframeworkcore.dll
+>>>>>>> bb87007c9d35a0e01c209e330c7cb5dbb2983320
 ++Microsoft.EntityFrameworkCore.Relational.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\microsoft.entityframeworkcore.relational.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\microsoft.entityframeworkcore.relational.dll
+<<<<<<< HEAD
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\microsoft.entityframeworkcore.relational.dll
+=======
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\microsoft.entityframeworkcore.relational.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\microsoft.entityframeworkcore.relational.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\microsoft.entityframeworkcore.relational.dll
+>>>>>>> bb87007c9d35a0e01c209e330c7cb5dbb2983320
 ++Microsoft.EntityFrameworkCore.SqlServer.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\microsoft.entityframeworkcore.sqlserver.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\microsoft.entityframeworkcore.sqlserver.dll
+<<<<<<< HEAD
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\microsoft.entityframeworkcore.sqlserver.dll
+=======
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\microsoft.entityframeworkcore.sqlserver.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\microsoft.entityframeworkcore.sqlserver.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\microsoft.entityframeworkcore.sqlserver.dll
+>>>>>>> bb87007c9d35a0e01c209e330c7cb5dbb2983320
 ++Microsoft.Extensions.Caching.Abstractions.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\microsoft.extensions.caching.abstractions.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\microsoft.extensions.caching.abstractions.dll
+<<<<<<< HEAD
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\microsoft.extensions.caching.abstractions.dll
+=======
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\microsoft.extensions.caching.abstractions.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\microsoft.extensions.caching.abstractions.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\microsoft.extensions.caching.abstractions.dll
+>>>>>>> bb87007c9d35a0e01c209e330c7cb5dbb2983320
 ++Microsoft.Extensions.Caching.Memory.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\microsoft.extensions.caching.memory.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\microsoft.extensions.caching.memory.dll
+<<<<<<< HEAD
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\microsoft.extensions.caching.memory.dll
+=======
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\microsoft.extensions.caching.memory.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\microsoft.extensions.caching.memory.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\microsoft.extensions.caching.memory.dll
+>>>>>>> bb87007c9d35a0e01c209e330c7cb5dbb2983320
 ++Microsoft.Extensions.Configuration.Abstractions.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\microsoft.extensions.configuration.abstractions.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\microsoft.extensions.configuration.abstractions.dll
+<<<<<<< HEAD
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\microsoft.extensions.configuration.abstractions.dll
+=======
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\microsoft.extensions.configuration.abstractions.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\microsoft.extensions.configuration.abstractions.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\microsoft.extensions.configuration.abstractions.dll
+>>>>>>> bb87007c9d35a0e01c209e330c7cb5dbb2983320
 ++Microsoft.Extensions.DependencyInjection.Abstractions.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\microsoft.extensions.dependencyinjection.abstractions.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\microsoft.extensions.dependencyinjection.abstractions.dll
+<<<<<<< HEAD
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\microsoft.extensions.dependencyinjection.abstractions.dll
+=======
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\microsoft.extensions.dependencyinjection.abstractions.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\microsoft.extensions.dependencyinjection.abstractions.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\microsoft.extensions.dependencyinjection.abstractions.dll
+>>>>>>> bb87007c9d35a0e01c209e330c7cb5dbb2983320
 ++Microsoft.Extensions.DependencyInjection.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\microsoft.extensions.dependencyinjection.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\microsoft.extensions.dependencyinjection.dll
+<<<<<<< HEAD
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\microsoft.extensions.dependencyinjection.dll
+=======
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\microsoft.extensions.dependencyinjection.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\microsoft.extensions.dependencyinjection.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\microsoft.extensions.dependencyinjection.dll
+>>>>>>> bb87007c9d35a0e01c209e330c7cb5dbb2983320
 ++Microsoft.Extensions.Logging.Abstractions.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\microsoft.extensions.logging.abstractions.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\microsoft.extensions.logging.abstractions.dll
+<<<<<<< HEAD
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\microsoft.extensions.logging.abstractions.dll
+=======
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\microsoft.extensions.logging.abstractions.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\microsoft.extensions.logging.abstractions.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\microsoft.extensions.logging.abstractions.dll
+>>>>>>> bb87007c9d35a0e01c209e330c7cb5dbb2983320
 ++Microsoft.Extensions.Logging.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\microsoft.extensions.logging.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\microsoft.extensions.logging.dll
+<<<<<<< HEAD
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\microsoft.extensions.logging.dll
+=======
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\microsoft.extensions.logging.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\microsoft.extensions.logging.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\microsoft.extensions.logging.dll
+>>>>>>> bb87007c9d35a0e01c209e330c7cb5dbb2983320
 ++Microsoft.Extensions.Options.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\microsoft.extensions.options.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\microsoft.extensions.options.dll
+<<<<<<< HEAD
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\microsoft.extensions.options.dll
+=======
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\microsoft.extensions.options.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\microsoft.extensions.options.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\microsoft.extensions.options.dll
+>>>>>>> bb87007c9d35a0e01c209e330c7cb5dbb2983320
 ++Microsoft.Extensions.Primitives.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\microsoft.extensions.primitives.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\microsoft.extensions.primitives.dll
+<<<<<<< HEAD
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\microsoft.extensions.primitives.dll
+=======
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\microsoft.extensions.primitives.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\microsoft.extensions.primitives.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\microsoft.extensions.primitives.dll
+>>>>>>> bb87007c9d35a0e01c209e330c7cb5dbb2983320
 ++Microsoft.Identity.Client.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\microsoft.identity.client.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\microsoft.identity.client.dll
+<<<<<<< HEAD
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\microsoft.identity.client.dll
+=======
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\microsoft.identity.client.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\microsoft.identity.client.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\microsoft.identity.client.dll
+>>>>>>> bb87007c9d35a0e01c209e330c7cb5dbb2983320
 ++Microsoft.IdentityModel.JsonWebTokens.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\microsoft.identitymodel.jsonwebtokens.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\microsoft.identitymodel.jsonwebtokens.dll
+<<<<<<< HEAD
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\microsoft.identitymodel.jsonwebtokens.dll
+=======
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\microsoft.identitymodel.jsonwebtokens.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\microsoft.identitymodel.jsonwebtokens.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\microsoft.identitymodel.jsonwebtokens.dll
+>>>>>>> bb87007c9d35a0e01c209e330c7cb5dbb2983320
 ++Microsoft.IdentityModel.Logging.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\microsoft.identitymodel.logging.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\microsoft.identitymodel.logging.dll
+<<<<<<< HEAD
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\microsoft.identitymodel.logging.dll
+=======
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\microsoft.identitymodel.logging.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\microsoft.identitymodel.logging.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\microsoft.identitymodel.logging.dll
+>>>>>>> bb87007c9d35a0e01c209e330c7cb5dbb2983320
 ++Microsoft.IdentityModel.Protocols.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\microsoft.identitymodel.protocols.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\microsoft.identitymodel.protocols.dll
+<<<<<<< HEAD
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\microsoft.identitymodel.protocols.dll
+=======
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\microsoft.identitymodel.protocols.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\microsoft.identitymodel.protocols.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\microsoft.identitymodel.protocols.dll
+>>>>>>> bb87007c9d35a0e01c209e330c7cb5dbb2983320
 ++Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\microsoft.identitymodel.protocols.openidconnect.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\microsoft.identitymodel.protocols.openidconnect.dll
+<<<<<<< HEAD
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\microsoft.identitymodel.protocols.openidconnect.dll
+=======
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\microsoft.identitymodel.protocols.openidconnect.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\microsoft.identitymodel.protocols.openidconnect.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\microsoft.identitymodel.protocols.openidconnect.dll
+>>>>>>> bb87007c9d35a0e01c209e330c7cb5dbb2983320
 ++Microsoft.IdentityModel.Tokens.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\microsoft.identitymodel.tokens.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\microsoft.identitymodel.tokens.dll
+<<<<<<< HEAD
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\microsoft.identitymodel.tokens.dll
 ++MimeKit.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\mimekit.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\mimekit.dll
+=======
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\microsoft.identitymodel.tokens.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\microsoft.identitymodel.tokens.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\microsoft.identitymodel.tokens.dll
+++Microsoft.TestPlatform.CommunicationUtilities.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\microsoft.testplatform.communicationutilities.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\microsoft.testplatform.communicationutilities.dll
+++Microsoft.TestPlatform.CoreUtilities.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\microsoft.testplatform.coreutilities.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\microsoft.testplatform.coreutilities.dll
+++Microsoft.TestPlatform.CrossPlatEngine.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\microsoft.testplatform.crossplatengine.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\microsoft.testplatform.crossplatengine.dll
+++Microsoft.TestPlatform.PlatformAbstractions.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\microsoft.testplatform.platformabstractions.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\users\bnql\.nuget\packages\microsoft.testplatform.testhost\16.9.4\build\netcoreapp2.1\x64\microsoft.testplatform.platformabstractions.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\microsoft.testplatform.platformabstractions.dll
+++Microsoft.TestPlatform.Utilities.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\microsoft.testplatform.utilities.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\microsoft.testplatform.utilities.dll
+++Microsoft.VisualStudio.CodeCoverage.Shim.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\microsoft.visualstudio.codecoverage.shim.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\microsoft.visualstudio.codecoverage.shim.dll
+++Microsoft.VisualStudio.TestPlatform.Common.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\microsoft.visualstudio.testplatform.common.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\microsoft.visualstudio.testplatform.common.dll
+++Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\microsoft.visualstudio.testplatform.objectmodel.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\microsoft.visualstudio.testplatform.objectmodel.dll
+++Microsoft.Win32.SystemEvents.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\microsoft.win32.systemevents.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\microsoft.win32.systemevents.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\microsoft.win32.systemevents.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\microsoft.win32.systemevents.dll
+>>>>>>> bb87007c9d35a0e01c209e330c7cb5dbb2983320
 ++Newtonsoft.Json.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\newtonsoft.json.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\newtonsoft.json.dll
+<<<<<<< HEAD
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\newtonsoft.json.dll
+=======
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\newtonsoft.json.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\newtonsoft.json.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\newtonsoft.json.dll
+++NuGet.Frameworks.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\nuget.frameworks.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\nuget.frameworks.dll
+++nunit.engine.api.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\nunit.engine.api.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\users\bnql\.nuget\packages\nunit3testadapter\3.17.0\build\netcoreapp2.1\nunit.engine.api.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\nunit.engine.api.dll
+++nunit.engine.core.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\nunit.engine.core.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\users\bnql\.nuget\packages\nunit3testadapter\3.17.0\build\netcoreapp2.1\nunit.engine.core.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\nunit.engine.core.dll
+++nunit.engine.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\nunit.engine.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\users\bnql\.nuget\packages\nunit3testadapter\3.17.0\build\netcoreapp2.1\nunit.engine.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\nunit.engine.dll
+++nunit.framework.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\nunit.framework.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\nunit.framework.dll
+++nunit_random_seed.tmp
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\nunit_random_seed.tmp
+++NUnit3.TestAdapter.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\nunit3.testadapter.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\users\bnql\.nuget\packages\nunit3testadapter\3.17.0\build\netcoreapp2.1\nunit3.testadapter.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\nunit3.testadapter.dll
+++NUnit3.TestAdapter.pdb
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\nunit3.testadapter.pdb
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\users\bnql\.nuget\packages\nunit3testadapter\3.17.0\build\netcoreapp2.1\nunit3.testadapter.pdb
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\nunit3.testadapter.pdb
+>>>>>>> bb87007c9d35a0e01c209e330c7cb5dbb2983320
 ++System.Collections.Immutable.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\system.collections.immutable.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\system.collections.immutable.dll
+<<<<<<< HEAD
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\system.collections.immutable.dll
+=======
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\system.collections.immutable.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\system.collections.immutable.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\system.collections.immutable.dll
+>>>>>>> bb87007c9d35a0e01c209e330c7cb5dbb2983320
 ++System.ComponentModel.Annotations.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\system.componentmodel.annotations.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\system.componentmodel.annotations.dll
+<<<<<<< HEAD
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\system.componentmodel.annotations.dll
+=======
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\system.componentmodel.annotations.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\system.componentmodel.annotations.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\system.componentmodel.annotations.dll
+>>>>>>> bb87007c9d35a0e01c209e330c7cb5dbb2983320
 ++System.Configuration.ConfigurationManager.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\system.configuration.configurationmanager.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\system.configuration.configurationmanager.dll
+<<<<<<< HEAD
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\system.configuration.configurationmanager.dll
+=======
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\system.configuration.configurationmanager.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\system.configuration.configurationmanager.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\system.configuration.configurationmanager.dll
+>>>>>>> bb87007c9d35a0e01c209e330c7cb5dbb2983320
 ++System.Diagnostics.DiagnosticSource.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\system.diagnostics.diagnosticsource.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\system.diagnostics.diagnosticsource.dll
+<<<<<<< HEAD
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\system.diagnostics.diagnosticsource.dll
+=======
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\system.diagnostics.diagnosticsource.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\system.diagnostics.diagnosticsource.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\system.diagnostics.diagnosticsource.dll
+++System.Drawing.Common.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\system.drawing.common.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\system.drawing.common.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\system.drawing.common.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\system.drawing.common.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\system.drawing.common.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\system.drawing.common.dll
+>>>>>>> bb87007c9d35a0e01c209e330c7cb5dbb2983320
 ++System.IdentityModel.Tokens.Jwt.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\system.identitymodel.tokens.jwt.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\system.identitymodel.tokens.jwt.dll
+<<<<<<< HEAD
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\system.identitymodel.tokens.jwt.dll
+=======
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\system.identitymodel.tokens.jwt.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\system.identitymodel.tokens.jwt.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\system.identitymodel.tokens.jwt.dll
+>>>>>>> bb87007c9d35a0e01c209e330c7cb5dbb2983320
 ++System.Runtime.Caching.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\system.runtime.caching.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\runtimes\win\lib\netstandard2.0\system.runtime.caching.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\system.runtime.caching.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\system.runtime.caching.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\system.runtime.caching.dll
+<<<<<<< HEAD
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\system.runtime.caching.dll
+=======
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\system.runtime.caching.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\system.runtime.caching.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\system.runtime.caching.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\runtimes\win\lib\netstandard2.0\system.runtime.caching.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\runtimes\win\lib\netstandard2.0\system.runtime.caching.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\system.runtime.caching.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\system.runtime.caching.dll
+>>>>>>> bb87007c9d35a0e01c209e330c7cb5dbb2983320
 ++System.Security.Cryptography.ProtectedData.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\system.security.cryptography.protecteddata.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\runtimes\win\lib\netstandard2.0\system.security.cryptography.protecteddata.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\system.security.cryptography.protecteddata.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\system.security.cryptography.protecteddata.dll
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\system.security.cryptography.protecteddata.dll
+<<<<<<< HEAD
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\system.security.cryptography.protecteddata.dll
 ++publish
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\
+=======
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\system.security.cryptography.protecteddata.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\system.security.cryptography.protecteddata.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\system.security.cryptography.protecteddata.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\runtimes\win\lib\netstandard2.0\system.security.cryptography.protecteddata.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\runtimes\win\lib\netstandard2.0\system.security.cryptography.protecteddata.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\system.security.cryptography.protecteddata.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\system.security.cryptography.protecteddata.dll
+++System.Security.Permissions.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\system.security.permissions.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\system.security.permissions.dll
+++System.Windows.Extensions.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\system.windows.extensions.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\system.windows.extensions.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\system.windows.extensions.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\system.windows.extensions.dll
+++System.Xml.XPath.XmlDocument.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\system.xml.xpath.xmldocument.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\system.xml.xpath.xmldocument.dll
+++testhost.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\testhost.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\users\bnql\.nuget\packages\microsoft.testplatform.testhost\16.9.4\build\netcoreapp2.1\x64\testhost.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\testhost.dll
+++testhost.exe
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\testhost.exe
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\users\bnql\.nuget\packages\microsoft.testplatform.testhost\16.9.4\build\netcoreapp2.1\x64\testhost.exe
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\testhost.exe
+++CompanyUnitTest.cs
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\companyunittest.cs
+++GoogleMapUnitTest.cs
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\googlemapunittest.cs
+++InterviewsUnitTest.cs
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\interviewsunittest.cs
+++Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\cs\microsoft.testplatform.communicationutilities.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\de\microsoft.testplatform.communicationutilities.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\es\microsoft.testplatform.communicationutilities.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\fr\microsoft.testplatform.communicationutilities.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\it\microsoft.testplatform.communicationutilities.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\ja\microsoft.testplatform.communicationutilities.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\ko\microsoft.testplatform.communicationutilities.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\pl\microsoft.testplatform.communicationutilities.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\pt-br\microsoft.testplatform.communicationutilities.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\ru\microsoft.testplatform.communicationutilities.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\tr\microsoft.testplatform.communicationutilities.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\zh-hans\microsoft.testplatform.communicationutilities.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\zh-hant\microsoft.testplatform.communicationutilities.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\cs\microsoft.testplatform.communicationutilities.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\de\microsoft.testplatform.communicationutilities.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\es\microsoft.testplatform.communicationutilities.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\fr\microsoft.testplatform.communicationutilities.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\it\microsoft.testplatform.communicationutilities.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\ja\microsoft.testplatform.communicationutilities.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\ko\microsoft.testplatform.communicationutilities.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\pl\microsoft.testplatform.communicationutilities.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\pt-br\microsoft.testplatform.communicationutilities.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\ru\microsoft.testplatform.communicationutilities.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\tr\microsoft.testplatform.communicationutilities.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\zh-hans\microsoft.testplatform.communicationutilities.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\zh-hant\microsoft.testplatform.communicationutilities.resources.dll
+++Microsoft.TestPlatform.CoreUtilities.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\cs\microsoft.testplatform.coreutilities.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\de\microsoft.testplatform.coreutilities.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\es\microsoft.testplatform.coreutilities.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\fr\microsoft.testplatform.coreutilities.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\it\microsoft.testplatform.coreutilities.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\ja\microsoft.testplatform.coreutilities.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\ko\microsoft.testplatform.coreutilities.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\pl\microsoft.testplatform.coreutilities.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\pt-br\microsoft.testplatform.coreutilities.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\ru\microsoft.testplatform.coreutilities.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\tr\microsoft.testplatform.coreutilities.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\zh-hans\microsoft.testplatform.coreutilities.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\zh-hant\microsoft.testplatform.coreutilities.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\cs\microsoft.testplatform.coreutilities.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\de\microsoft.testplatform.coreutilities.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\es\microsoft.testplatform.coreutilities.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\fr\microsoft.testplatform.coreutilities.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\it\microsoft.testplatform.coreutilities.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\ja\microsoft.testplatform.coreutilities.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\ko\microsoft.testplatform.coreutilities.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\pl\microsoft.testplatform.coreutilities.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\pt-br\microsoft.testplatform.coreutilities.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\ru\microsoft.testplatform.coreutilities.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\tr\microsoft.testplatform.coreutilities.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\zh-hans\microsoft.testplatform.coreutilities.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\zh-hant\microsoft.testplatform.coreutilities.resources.dll
+++Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\cs\microsoft.testplatform.crossplatengine.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\de\microsoft.testplatform.crossplatengine.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\es\microsoft.testplatform.crossplatengine.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\fr\microsoft.testplatform.crossplatengine.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\it\microsoft.testplatform.crossplatengine.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\ja\microsoft.testplatform.crossplatengine.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\ko\microsoft.testplatform.crossplatengine.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\pl\microsoft.testplatform.crossplatengine.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\pt-br\microsoft.testplatform.crossplatengine.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\ru\microsoft.testplatform.crossplatengine.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\tr\microsoft.testplatform.crossplatengine.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\zh-hans\microsoft.testplatform.crossplatengine.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\zh-hant\microsoft.testplatform.crossplatengine.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\cs\microsoft.testplatform.crossplatengine.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\de\microsoft.testplatform.crossplatengine.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\es\microsoft.testplatform.crossplatengine.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\fr\microsoft.testplatform.crossplatengine.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\it\microsoft.testplatform.crossplatengine.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\ja\microsoft.testplatform.crossplatengine.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\ko\microsoft.testplatform.crossplatengine.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\pl\microsoft.testplatform.crossplatengine.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\pt-br\microsoft.testplatform.crossplatengine.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\ru\microsoft.testplatform.crossplatengine.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\tr\microsoft.testplatform.crossplatengine.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\zh-hans\microsoft.testplatform.crossplatengine.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\zh-hant\microsoft.testplatform.crossplatengine.resources.dll
+++Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\cs\microsoft.visualstudio.testplatform.common.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\de\microsoft.visualstudio.testplatform.common.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\es\microsoft.visualstudio.testplatform.common.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\fr\microsoft.visualstudio.testplatform.common.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\it\microsoft.visualstudio.testplatform.common.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\ja\microsoft.visualstudio.testplatform.common.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\ko\microsoft.visualstudio.testplatform.common.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\pl\microsoft.visualstudio.testplatform.common.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\pt-br\microsoft.visualstudio.testplatform.common.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\ru\microsoft.visualstudio.testplatform.common.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\tr\microsoft.visualstudio.testplatform.common.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\zh-hans\microsoft.visualstudio.testplatform.common.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\zh-hant\microsoft.visualstudio.testplatform.common.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\cs\microsoft.visualstudio.testplatform.common.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\de\microsoft.visualstudio.testplatform.common.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\es\microsoft.visualstudio.testplatform.common.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\fr\microsoft.visualstudio.testplatform.common.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\it\microsoft.visualstudio.testplatform.common.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\ja\microsoft.visualstudio.testplatform.common.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\ko\microsoft.visualstudio.testplatform.common.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\pl\microsoft.visualstudio.testplatform.common.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\pt-br\microsoft.visualstudio.testplatform.common.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\ru\microsoft.visualstudio.testplatform.common.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\tr\microsoft.visualstudio.testplatform.common.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\zh-hans\microsoft.visualstudio.testplatform.common.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\zh-hant\microsoft.visualstudio.testplatform.common.resources.dll
+++Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\cs\microsoft.visualstudio.testplatform.objectmodel.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\de\microsoft.visualstudio.testplatform.objectmodel.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\es\microsoft.visualstudio.testplatform.objectmodel.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\fr\microsoft.visualstudio.testplatform.objectmodel.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\it\microsoft.visualstudio.testplatform.objectmodel.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\ja\microsoft.visualstudio.testplatform.objectmodel.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\ko\microsoft.visualstudio.testplatform.objectmodel.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\pl\microsoft.visualstudio.testplatform.objectmodel.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\pt-br\microsoft.visualstudio.testplatform.objectmodel.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\ru\microsoft.visualstudio.testplatform.objectmodel.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\tr\microsoft.visualstudio.testplatform.objectmodel.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\zh-hans\microsoft.visualstudio.testplatform.objectmodel.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\zh-hant\microsoft.visualstudio.testplatform.objectmodel.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\cs\microsoft.visualstudio.testplatform.objectmodel.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\de\microsoft.visualstudio.testplatform.objectmodel.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\es\microsoft.visualstudio.testplatform.objectmodel.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\fr\microsoft.visualstudio.testplatform.objectmodel.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\it\microsoft.visualstudio.testplatform.objectmodel.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\ja\microsoft.visualstudio.testplatform.objectmodel.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\ko\microsoft.visualstudio.testplatform.objectmodel.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\pl\microsoft.visualstudio.testplatform.objectmodel.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\pt-br\microsoft.visualstudio.testplatform.objectmodel.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\ru\microsoft.visualstudio.testplatform.objectmodel.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\tr\microsoft.visualstudio.testplatform.objectmodel.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\zh-hans\microsoft.visualstudio.testplatform.objectmodel.resources.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\zh-hant\microsoft.visualstudio.testplatform.objectmodel.resources.dll
+++unix
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\runtimes\unix\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\runtimes\unix\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\runtimes\unix\
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\runtimes\unix\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\runtimes\unix\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\runtimes\unix\
+++win
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\runtimes\win\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\runtimes\win\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\runtimes\win\
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\runtimes\win\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\runtimes\win\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\runtimes\win\
+++win-arm
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\runtimes\win-arm\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\runtimes\win-arm\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\runtimes\win-arm\
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\runtimes\win-arm\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\runtimes\win-arm\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\runtimes\win-arm\
+++win-arm64
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\runtimes\win-arm64\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\runtimes\win-arm64\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\runtimes\win-arm64\
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\runtimes\win-arm64\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\runtimes\win-arm64\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\runtimes\win-arm64\
+++win-x64
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\runtimes\win-x64\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\runtimes\win-x64\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\runtimes\win-x64\
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\runtimes\win-x64\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\runtimes\win-x64\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\runtimes\win-x64\
+++win-x86
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\runtimes\win-x86\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\runtimes\win-x86\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\runtimes\win-x86\
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\runtimes\win-x86\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\runtimes\win-x86\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\runtimes\win-x86\
+++chambapp.nunit.test.csproj.nuget.dgspec.json
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\obj\chambapp.nunit.test.csproj.nuget.dgspec.json
+++chambapp.nunit.test.csproj.nuget.g.props
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\obj\chambapp.nunit.test.csproj.nuget.g.props
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\obj\chambapp.nunit.test.csproj.nuget.g.props
+++chambapp.nunit.test.csproj.nuget.g.targets
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\obj\chambapp.nunit.test.csproj.nuget.g.targets
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\obj\chambapp.nunit.test.csproj.nuget.g.targets
+++coverlet.collector (3.0.2)
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:>2103
+++Microsoft.NET.Test.Sdk (16.9.4)
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:>2100
+++NUnit (3.13.1)
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:>2101
+++NUnit3TestAdapter (3.17.0)
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:>2102
+++lib
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\runtimes\unix\lib\
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\runtimes\win\lib\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\runtimes\unix\lib\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\runtimes\win\lib\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\runtimes\unix\lib\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\runtimes\win\lib\
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\runtimes\unix\lib\
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\runtimes\win\lib\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\runtimes\unix\lib\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\runtimes\win\lib\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\runtimes\unix\lib\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\runtimes\win\lib\
+++native
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\runtimes\win-arm\native\
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\runtimes\win-arm64\native\
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\runtimes\win-x64\native\
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\runtimes\win-x86\native\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\runtimes\win-arm\native\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\runtimes\win-arm64\native\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\runtimes\win-x64\native\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\runtimes\win-x86\native\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\runtimes\win-arm\native\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\runtimes\win-arm64\native\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\runtimes\win-x64\native\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\runtimes\win-x86\native\
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\runtimes\win-arm\native\
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\runtimes\win-arm64\native\
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\runtimes\win-x64\native\
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\runtimes\win-x86\native\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\runtimes\win-arm\native\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\runtimes\win-arm64\native\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\runtimes\win-x64\native\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\runtimes\win-x86\native\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\runtimes\win-arm\native\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\runtimes\win-arm64\native\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\runtimes\win-x64\native\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\runtimes\win-x86\native\
+++netcoreapp3.0
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\
+++netstandard2.0
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\runtimes\win\lib\netstandard2.0\
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\runtimes\win\lib\netstandard2.0\
+++Microsoft.Data.SqlClient.SNI.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\runtimes\win-arm\native\microsoft.data.sqlclient.sni.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\runtimes\win-arm64\native\microsoft.data.sqlclient.sni.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\runtimes\win-x64\native\microsoft.data.sqlclient.sni.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\runtimes\win-x86\native\microsoft.data.sqlclient.sni.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\runtimes\win-arm\native\microsoft.data.sqlclient.sni.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\runtimes\win-arm64\native\microsoft.data.sqlclient.sni.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\runtimes\win-x64\native\microsoft.data.sqlclient.sni.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\runtimes\win-x86\native\microsoft.data.sqlclient.sni.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\runtimes\win-arm\native\microsoft.data.sqlclient.sni.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\runtimes\win-arm64\native\microsoft.data.sqlclient.sni.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\runtimes\win-x64\native\microsoft.data.sqlclient.sni.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\runtimes\win-x86\native\microsoft.data.sqlclient.sni.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\runtimes\win-arm\native\microsoft.data.sqlclient.sni.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\runtimes\win-arm64\native\microsoft.data.sqlclient.sni.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\runtimes\win-x64\native\microsoft.data.sqlclient.sni.dll
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\runtimes\win-x86\native\microsoft.data.sqlclient.sni.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\runtimes\win-arm\native\microsoft.data.sqlclient.sni.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\runtimes\win-arm64\native\microsoft.data.sqlclient.sni.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\runtimes\win-x64\native\microsoft.data.sqlclient.sni.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\runtimes\win-x86\native\microsoft.data.sqlclient.sni.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\runtimes\win-arm\native\microsoft.data.sqlclient.sni.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\runtimes\win-arm64\native\microsoft.data.sqlclient.sni.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\runtimes\win-x64\native\microsoft.data.sqlclient.sni.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\runtimes\win-x86\native\microsoft.data.sqlclient.sni.dll
+++Microsoft.Data.SqlClient.SNI.pdb
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\runtimes\win-arm\native\microsoft.data.sqlclient.sni.pdb
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\runtimes\win-arm64\native\microsoft.data.sqlclient.sni.pdb
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\runtimes\win-x64\native\microsoft.data.sqlclient.sni.pdb
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\debug\netcoreapp3.1\runtimes\win-x86\native\microsoft.data.sqlclient.sni.pdb
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\runtimes\win-arm\native\microsoft.data.sqlclient.sni.pdb
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\runtimes\win-arm64\native\microsoft.data.sqlclient.sni.pdb
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\runtimes\win-x64\native\microsoft.data.sqlclient.sni.pdb
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\runtimes\win-x86\native\microsoft.data.sqlclient.sni.pdb
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\runtimes\win-arm\native\microsoft.data.sqlclient.sni.pdb
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\runtimes\win-arm64\native\microsoft.data.sqlclient.sni.pdb
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\runtimes\win-x64\native\microsoft.data.sqlclient.sni.pdb
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\runtimes\win-x86\native\microsoft.data.sqlclient.sni.pdb
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\runtimes\win-arm\native\microsoft.data.sqlclient.sni.pdb
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\runtimes\win-arm64\native\microsoft.data.sqlclient.sni.pdb
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\runtimes\win-x64\native\microsoft.data.sqlclient.sni.pdb
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\bin\release\netcoreapp3.1\runtimes\win-x86\native\microsoft.data.sqlclient.sni.pdb
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\runtimes\win-arm\native\microsoft.data.sqlclient.sni.pdb
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\runtimes\win-arm64\native\microsoft.data.sqlclient.sni.pdb
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\runtimes\win-x64\native\microsoft.data.sqlclient.sni.pdb
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\runtimes\win-x86\native\microsoft.data.sqlclient.sni.pdb
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\runtimes\win-arm\native\microsoft.data.sqlclient.sni.pdb
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\runtimes\win-arm64\native\microsoft.data.sqlclient.sni.pdb
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\runtimes\win-x64\native\microsoft.data.sqlclient.sni.pdb
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\runtimes\win-x86\native\microsoft.data.sqlclient.sni.pdb
+++chambapp.nunit.test.AssemblyInfo.cs
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\obj\debug\netcoreapp3.1\chambapp.nunit.test.assemblyinfo.cs
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\obj\release\netcoreapp3.1\chambapp.nunit.test.assemblyinfo.cs
+++chambapp.nunit.test.AssemblyInfoInputs.cache
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\obj\debug\netcoreapp3.1\chambapp.nunit.test.assemblyinfoinputs.cache
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\obj\release\netcoreapp3.1\chambapp.nunit.test.assemblyinfoinputs.cache
+++chambapp.nunit.test.assets.cache
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\obj\debug\netcoreapp3.1\chambapp.nunit.test.assets.cache
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\obj\release\netcoreapp3.1\chambapp.nunit.test.assets.cache
+++chambapp.nunit.test.csproj.AssemblyReference.cache
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\obj\debug\netcoreapp3.1\chambapp.nunit.test.csproj.assemblyreference.cache
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\obj\release\netcoreapp3.1\chambapp.nunit.test.csproj.assemblyreference.cache
+++chambapp.nunit.test.csproj.BuildWithSkipAnalyzers
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\obj\debug\netcoreapp3.1\chambapp.nunit.test.csproj.buildwithskipanalyzers
+++chambapp.nunit.test.csproj.CopyComplete
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\obj\debug\netcoreapp3.1\chambapp.nunit.test.csproj.copycomplete
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\obj\release\netcoreapp3.1\chambapp.nunit.test.csproj.copycomplete
+++chambapp.nunit.test.csproj.CoreCompileInputs.cache
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\obj\debug\netcoreapp3.1\chambapp.nunit.test.csproj.corecompileinputs.cache
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\obj\release\netcoreapp3.1\chambapp.nunit.test.csproj.corecompileinputs.cache
+++chambapp.nunit.test.csproj.FileListAbsolute.txt
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\obj\debug\netcoreapp3.1\chambapp.nunit.test.csproj.filelistabsolute.txt
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\obj\release\netcoreapp3.1\chambapp.nunit.test.csproj.filelistabsolute.txt
+++chambapp.nunit.test.GeneratedMSBuildEditorConfig.editorconfig
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\obj\debug\netcoreapp3.1\chambapp.nunit.test.generatedmsbuildeditorconfig.editorconfig
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\obj\release\netcoreapp3.1\chambapp.nunit.test.generatedmsbuildeditorconfig.editorconfig
+++chambapp.nunit.test.genruntimeconfig.cache
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\obj\debug\netcoreapp3.1\chambapp.nunit.test.genruntimeconfig.cache
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\github\chambaap-rest\chambapp.nunit.test\obj\release\netcoreapp3.1\chambapp.nunit.test.genruntimeconfig.cache
+++NUnit3TestAdapter.props
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\users\bnql\.nuget\packages\nunit3testadapter\3.17.0\build\netcoreapp2.1\nunit3testadapter.props
+++NUnit.props
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\users\bnql\.nuget\packages\nunit\3.13.1\build\nunit.props
+++Microsoft.TestPlatform.TestHost.props
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\users\bnql\.nuget\packages\microsoft.testplatform.testhost\16.9.4\build\netcoreapp2.1\microsoft.testplatform.testhost.props
+++Microsoft.CodeCoverage.props
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\users\bnql\.nuget\packages\microsoft.codecoverage\16.9.4\build\netstandard1.0\microsoft.codecoverage.props
+++Microsoft.NET.Test.Sdk.props
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\users\bnql\.nuget\packages\microsoft.net.test.sdk\16.9.4\build\netcoreapp2.1\microsoft.net.test.sdk.props
+++NETStandard.Library.targets
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\users\bnql\.nuget\packages\netstandard.library\2.0.0\build\netstandard2.0\netstandard.library.targets
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\users\bnql\.nuget\packages\netstandard.library\2.0.0\build\netstandard.library.targets
+++Microsoft.CodeCoverage.targets
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\users\bnql\.nuget\packages\microsoft.codecoverage\16.9.4\build\netstandard1.0\microsoft.codecoverage.targets
+++Microsoft.NET.Test.Sdk.targets
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\users\bnql\.nuget\packages\microsoft.net.test.sdk\16.9.4\build\netcoreapp2.1\microsoft.net.test.sdk.targets
+++coverlet.collector.targets
+i:{e993bd32-0c4f-4e11-8653-9ae82bc4b74b}:c:\users\bnql\.nuget\packages\coverlet.collector\3.0.2\build\netstandard1.0\coverlet.collector.targets
+++chambapp.services
+i:{00000000-0000-0000-0000-000000000000}:chambapp.services
+++Connected Services 
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:>1649
+++Properties
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\properties\
+++appsettings.Development.json
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\appsettings.development.json
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\appsettings.development.json
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\appsettings.development.json
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\appsettings.development.json
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\appsettings.development.json
+++chambapp.services.deps.json
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\chambapp.services.deps.json
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\chambapp.services.deps.json
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\chambapp.services.deps.json
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\chambapp.services.deps.json
+++chambapp.services.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\chambapp.services.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\debug\netcoreapp3.1\chambapp.services.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\chambapp.services.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\chambapp.services.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\chambapp.services.dll
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\chambapp.services.dll
+++chambapp.services.exe
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\chambapp.services.exe
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\chambapp.services.exe
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\chambapp.services.exe
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\chambapp.services.exe
+++chambapp.services.pdb
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\chambapp.services.pdb
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\debug\netcoreapp3.1\chambapp.services.pdb
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\chambapp.services.pdb
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\chambapp.services.pdb
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\chambapp.services.pdb
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\chambapp.services.pdb
+++chambapp.services.runtimeconfig.dev.json
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\chambapp.services.runtimeconfig.dev.json
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\chambapp.services.runtimeconfig.dev.json
+++chambapp.services.runtimeconfig.json
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\debug\netcoreapp3.1\chambapp.services.runtimeconfig.json
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\chambapp.services.runtimeconfig.json
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\chambapp.services.runtimeconfig.json
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\chambapp.services.runtimeconfig.json
+++Controllers
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\controllers\
+++CompaniesController.cs
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\controllers\companiescontroller.cs
+++InterviewsController.cs
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\controllers\interviewscontroller.cs
+++WeatherForecastController.cs
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\controllers\weatherforecastcontroller.cs
+>>>>>>> bb87007c9d35a0e01c209e330c7cb5dbb2983320
 ++staticwebassets
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\debug\netcoreapp3.1\staticwebassets\
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\staticwebassets\
@@ -1158,14 +2194,109 @@ i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\debug\netcoreapp3.1\chambapp.services.genruntimeconfig.cache
 ++chambapp.services.MvcApplicationPartsAssemblyInfo.cache
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\chambapp.services.mvcapplicationpartsassemblyinfo.cache
+<<<<<<< HEAD
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\debug\netcoreapp3.1\chambapp.services.mvcapplicationpartsassemblyinfo.cache
+=======
+>>>>>>> bb87007c9d35a0e01c209e330c7cb5dbb2983320
 ++chambapp.services.RazorTargetAssemblyInfo.cache
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\chambapp.services.razortargetassemblyinfo.cache
+<<<<<<< HEAD
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\debug\netcoreapp3.1\chambapp.services.razortargetassemblyinfo.cache
 ++PubTmp
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\
 ++PublishOutputs.266d7feadc.txt
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\publishoutputs.266d7feadc.txt
+=======
+++chamba.services.csproj.nuget.dgspec.json
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\chamba.services.csproj.nuget.dgspec.json
+++chamba.services.csproj.nuget.g.props
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\chamba.services.csproj.nuget.g.props
+++chamba.services.csproj.nuget.g.targets
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\chamba.services.csproj.nuget.g.targets
+++chambapp.services.csproj.nuget.dgspec.json
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\chambapp.services.csproj.nuget.dgspec.json
+++chambapp.services.csproj.nuget.g.props
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\chambapp.services.csproj.nuget.g.props
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\chambapp.services.csproj.nuget.g.props
+++chambapp.services.csproj.nuget.g.targets
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\chambapp.services.csproj.nuget.g.targets
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\chambapp.services.csproj.nuget.g.targets
+++Program.cs
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\program.cs
+++Startup.cs
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\startup.cs
+++WeatherForecast.cs
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\weatherforecast.cs
+++No service dependencies discovered
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:>1822
+++PublishProfiles
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\properties\publishprofiles\
+++ServiceDependencies
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\properties\servicedependencies\
+++launchSettings.json
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\properties\launchsettings.json
+++chamba.services.StaticWebAssets.Manifest.cache
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\debug\netcoreapp3.1\staticwebassets\chamba.services.staticwebassets.manifest.cache
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\staticwebassets\chamba.services.staticwebassets.manifest.cache
+++chamba.services.StaticWebAssets.xml
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\debug\netcoreapp3.1\staticwebassets\chamba.services.staticwebassets.xml
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\staticwebassets\chamba.services.staticwebassets.xml
+++chambapp.services.StaticWebAssets.Manifest.cache
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\debug\netcoreapp3.1\staticwebassets\chambapp.services.staticwebassets.manifest.cache
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\staticwebassets\chambapp.services.staticwebassets.manifest.cache
+++Microsoft.AspNetCore.Analyzers
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.App
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\microsoft.aspnetcore.app
+++Sdk.props (C:\Program Files\dotnet\sdk\6.0.100\Sdks\Microsoft.NET.Sdk\Sdk)
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\sdk\sdk.props
+++Sdk.props (C:\Program Files\dotnet\sdk\6.0.100\Sdks\Microsoft.NET.Sdk.Razor\Sdk)
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\sdk\sdk.props
+++Sdk.props (C:\Program Files\dotnet\sdk\6.0.100\Sdks\Microsoft.NET.Sdk.Web.ProjectSystem\Sdk)
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web.projectsystem\sdk\sdk.props
+++Sdk.props (C:\Program Files\dotnet\sdk\6.0.100\Sdks\Microsoft.NET.Sdk.Publish\Sdk)
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.publish\sdk\sdk.props
+++Sdk.targets (C:\Program Files\dotnet\sdk\6.0.100\Sdks\Microsoft.NET.Sdk\Sdk)
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\sdk\sdk.targets
+++Sdk.targets (C:\Program Files\dotnet\sdk\6.0.100\Sdks\Microsoft.NET.Sdk.Razor\Sdk)
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\sdk\sdk.targets
+++Sdk.targets (C:\Program Files\dotnet\sdk\6.0.100\Sdks\Microsoft.NET.Sdk.Web.ProjectSystem\Sdk)
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web.projectsystem\sdk\sdk.targets
+++Sdk.targets (C:\Program Files\dotnet\sdk\6.0.100\Sdks\Microsoft.NET.Sdk.Publish\Sdk)
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.publish\sdk\sdk.targets
+++chambappservices - Zip Deploy.pubxml
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\properties\publishprofiles\chambappservices - zip deploy.pubxml
+++chambappservices - Zip Deploy.pubxml.user
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\properties\publishprofiles\chambappservices - zip deploy.pubxml.user
+++FolderProfile.pubxml
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\properties\publishprofiles\folderprofile.pubxml
+++FolderProfile.pubxml.user
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\properties\publishprofiles\folderprofile.pubxml.user
+++chambappservices - Zip Deploy
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\properties\servicedependencies\chambappservices - zip deploy\
+++PubTmp
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\
+++Sdk.Razor.CurrentVersion.props
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\targets\sdk.razor.currentversion.props
+++Microsoft.NET.Sdk.Web.ProjectSystem.props
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web.projectsystem\targets\microsoft.net.sdk.web.projectsystem.props
+++Microsoft.NET.Sdk.Publish.props
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.publish\targets\microsoft.net.sdk.publish.props
+++Sdk.Razor.CurrentVersion.targets
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\targets\sdk.razor.currentversion.targets
+++Microsoft.NET.Sdk.Web.ProjectSystem.targets
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web.projectsystem\targets\microsoft.net.sdk.web.projectsystem.targets
+++Microsoft.NET.Sdk.Publish.targets
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.publish\targets\microsoft.net.sdk.publish.targets
+++profile.arm.json
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\properties\servicedependencies\chambappservices - zip deploy\profile.arm.json
+++Out
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\
+>>>>>>> bb87007c9d35a0e01c209e330c7cb5dbb2983320
 ++Sdk.Razor.StaticAssets.ProjectSystem.props
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\sdk\sdk.razor.staticassets.projectsystem.props
 ++Microsoft.TypeScript.Default.props
@@ -1326,6 +2457,7 @@ i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\chambapp.services.csproj.user
 ++Microsoft.Web.IISSupport.targets
 i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\program files\microsoft visual studio\2022\enterprise\msbuild\microsoft\visualstudio\managed.web\microsoft.web.iissupport.targets
+<<<<<<< HEAD
 ++qcznl3ic.hg2~
 ++chambapp.dto.deps.json
 i:{e2c650d4-30f8-4afe-9616-ce72c30db262}:c:\github\chambaap-rest\chamba.dto\bin\debug\netcoreapp3.1\chambapp.dto.deps.json
@@ -1396,3 +2528,14 @@ i:{e2c650d4-30f8-4afe-9616-ce72c30db262}:c:\github\chambaap-rest\chamba.dto\obj\
 i:{e2c650d4-30f8-4afe-9616-ce72c30db262}:c:\github\chambaap-rest\chamba.dto\obj\debug\netcoreapp3.1\chambapp.dto.csproj.assemblyreference.cache
 ++BindingEmailDto.cs
 i:{e2c650d4-30f8-4afe-9616-ce72c30db262}:c:\github\chambaap-rest\chamba.dto\bindingemaildto.cs
+=======
+++PublishOutputs.266d7feadc.txt
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\publishoutputs.266d7feadc.txt
+++chambapp.services-20211116211222011.zip
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\chambapp.services-20211116211222011.zip
+++web.config
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\web.config
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\obj\release\netcoreapp3.1\pubtmp\out\web.config
+++publish
+i:{befb960d-87d8-4666-b93f-1e6ab889030f}:c:\github\chambaap-rest\chamba.services\bin\release\netcoreapp3.1\publish\
+>>>>>>> bb87007c9d35a0e01c209e330c7cb5dbb2983320

@@ -33,3 +33,7 @@ C:\Github\chambaap-rest\chamba.bll\obj\Release\netcoreapp3.1\chambapp.bll.csproj
 C:\Github\chambaap-rest\chamba.bll\obj\Release\netcoreapp3.1\chambapp.bll.csproj.CopyComplete
 C:\Github\chambaap-rest\chamba.bll\obj\Release\netcoreapp3.1\chambapp.bll.dll
 C:\Github\chambaap-rest\chamba.bll\obj\Release\netcoreapp3.1\chambapp.bll.pdb
+<<<<<<< HEAD
+=======
+C:\Github\chambaap-rest\chamba.bll\bin\Release\netcoreapp3.1\assets\chambappsettings.json
+>>>>>>> bb87007c9d35a0e01c209e330c7cb5dbb2983320

@@ -142,3 +142,33 @@ C:\Github\chambaap-rest\chamba.services\obj\Debug\netcoreapp3.1\chambapp.service
 C:\Github\chambaap-rest\chamba.services\obj\Debug\netcoreapp3.1\chambapp.services.dll
 C:\Github\chambaap-rest\chamba.services\obj\Debug\netcoreapp3.1\chambapp.services.pdb
 C:\Github\chambaap-rest\chamba.services\obj\Debug\netcoreapp3.1\chambapp.services.genruntimeconfig.cache
+<<<<<<< HEAD
+=======
+C:\Github\chambaap-rest\chamba.services\obj\Debug\netcoreapp3.1\chambapp.services.csproj.CopyComplete
+C:\Github\chambaap-rest\chamba.services\obj\Debug\netcoreapp3.1\chambapp.services.csproj.AssemblyReference.cache
+C:\Github\chambaap-rest\chamba.services\bin\Debug\netcoreapp3.1\assets\chambappsettings.json
+C:\Github\chambaap-rest\chamba.services\bin\Debug\netcoreapp3.1\assets\chambas.json
+C:\Github\chambaap-rest\chamba.services\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
+C:\Github\chambaap-rest\chamba.services\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Github\chambaap-rest\chamba.services\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Github\chambaap-rest\chamba.services\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Github\chambaap-rest\chamba.services\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
+C:\Github\chambaap-rest\chamba.services\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
+C:\Github\chambaap-rest\chamba.services\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
+C:\Github\chambaap-rest\chamba.services\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Github\chambaap-rest\chamba.services\bin\Debug\netcoreapp3.1\System.Text.Encodings.Web.dll
+C:\Github\chambaap-rest\chamba.services\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Github\chambaap-rest\chamba.services\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Github\chambaap-rest\chamba.services\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Github\chambaap-rest\chamba.services\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Github\chambaap-rest\chamba.services\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Github\chambaap-rest\chamba.services\bin\Debug\netcoreapp3.1\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Github\chambaap-rest\chamba.services\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Github\chambaap-rest\chamba.services\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Github\chambaap-rest\chamba.services\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Github\chambaap-rest\chamba.services\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Github\chambaap-rest\chamba.services\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
+C:\Github\chambaap-rest\chamba.services\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Github\chambaap-rest\chamba.services\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
+C:\Github\chambaap-rest\chamba.services\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+>>>>>>> bb87007c9d35a0e01c209e330c7cb5dbb2983320

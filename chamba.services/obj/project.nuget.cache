@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "wo1r+yNetV1Cl1fFMCAA84dT24aubNPSh5FAN0752oZdvY+0tur1CU2vohgGNhLgIn580qP+acZ9koZKogyrFA==",
+=======
+  "dgSpecHash": "J4cum44yzG5JXG3pX9N8Dd0gQHAIZrZZ2x8bW5Bn2WuCeXLwFWgCN947mMjU2dTb4RyZgKmVu3F5eil765H9Ug==",
+>>>>>>> bb87007c9d35a0e01c209e330c7cb5dbb2983320
   "success": true,
   "projectFilePath": "C:\\Github\\chambaap-rest\\chamba.services\\chambapp.services.csproj",
   "expectedPackageFiles": [

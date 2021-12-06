@@ -55,10 +55,31 @@ namespace chambapp.services.Controllers
         // public async Task<IActionResult> PutEmployeeAsync([FromBody] Employee emp)
 
         [HttpPost]
+<<<<<<< HEAD
         // [Route("row")]
         public async Task<ResponseModel> Post([FromBody] InterviewDto value)
         {
             return await _interviewBll.CreateAsync(value);
+=======
+        [Route("row")]
+        public async Task<string> PostRow([FromBody] InterviewRowDto value)
+        {
+            try
+            {
+                Helpers.DbContext dbContext = new Helpers.DbContext();
+                string fileRoot = "./assets/chambas.json";
+                if (!System.IO.File.Exists(fileRoot))
+                    System.IO.File.Create(fileRoot);
+                
+                await System.IO.File.AppendAllTextAsync(fileRoot, _interviewBll.AddRowFormat(value) + Environment.NewLine);
+
+                return "OK";
+            }
+            catch (Exception ex)
+            {
+                return $"{ex.Message} / {ex.InnerException.Message} ";
+            }
+>>>>>>> bb87007c9d35a0e01c209e330c7cb5dbb2983320
         }
 
         // PUT api/<InterviewsController>/5

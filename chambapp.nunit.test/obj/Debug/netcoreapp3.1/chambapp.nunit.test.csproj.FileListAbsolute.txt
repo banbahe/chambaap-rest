@@ -163,3 +163,11 @@ C:\Github\chambaap-rest\chambapp.nunit.test\bin\Debug\netcoreapp3.1\chambapp.nun
 C:\Github\chambaap-rest\chambapp.nunit.test\bin\Debug\netcoreapp3.1\chambapp.nunit.test.dll
 C:\Github\chambaap-rest\chambapp.nunit.test\bin\Debug\netcoreapp3.1\chambapp.nunit.test.pdb
 C:\Github\chambaap-rest\chambapp.nunit.test\obj\Debug\netcoreapp3.1\chambapp.nunit.test.genruntimeconfig.cache
+<<<<<<< HEAD
+=======
+C:\Github\chambaap-rest\chambapp.nunit.test\obj\Debug\netcoreapp3.1\chambapp.nunit.test.csproj.AssemblyReference.cache
+C:\Github\chambaap-rest\chambapp.nunit.test\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Github\chambaap-rest\chambapp.nunit.test\bin\Debug\netcoreapp3.1\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Github\chambaap-rest\chambapp.nunit.test\bin\Debug\netcoreapp3.1\bin\Debug\appsettings.json
+C:\Github\chambaap-rest\chambapp.nunit.test\bin\Debug\netcoreapp3.1\assets\chambappsettings.json
+>>>>>>> bb87007c9d35a0e01c209e330c7cb5dbb2983320
