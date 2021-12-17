@@ -72,12 +72,14 @@ namespace chambapp.bll.AutoMapper
 
             CreateMap<Interview, InterviewDto>()
                 .ForMember(d => d.IdInterview, m => m.MapFrom(s => s.Id))
+                .ForMember(d => d.CurrentState, m => m.MapFrom(s => s.IdstatusCatalog))
                 .ForMember(d => d.Company, m => m.MapFrom(s => s.IdcompanyNavigation))
                 .ForMember(d => d.Recruiter, m => m.MapFrom(s => s.IdrecruiterNavigation))
                 .ForMember(d => d.Candidate, m => m.MapFrom(s => s.IdcandidateNavigation));
             
             CreateMap<InterviewDto, Interview>()
                 .ForMember(d => d.Id, m => m.MapFrom(s => s.IdInterview))
+                .ForMember(d => d.IdstatusCatalog, m => m.MapFrom(s => s.CurrentState))
                 .ForMember(d => d.IdcompanyNavigation, m => m.MapFrom(s => s.Company))
                 .ForMember(d => d.IdrecruiterNavigation, m => m.MapFrom(s => s.Recruiter))
                 .ForMember(d => d.Idcandidate, m => m.MapFrom(s => s.Candidate.IdCandidate))

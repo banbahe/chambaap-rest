@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>chambapp.bll</id>
+    <version>1.0.0</version>
+    <authors>chambapp.bll</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="chambapp.dal" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="chambapp.dto" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="AutoMapper" version="9.0.0" exclude="Build,Analyzers" />
+        <dependency id="MailKit" version="2.15.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <contentFiles>
+      <files include="any/netcoreapp3.1/assets/chambappsettings.json" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\Github\chambaap-rest\chamba.bll\bin\Release\netcoreapp3.1\chambapp.bll.dll" target="lib\netcoreapp3.1\chambapp.bll.dll" />
+    <file src="C:\Github\chambaap-rest\chamba.bll\assets\chambappsettings.json" target="content\assets\chambappsettings.json" />
+    <file src="C:\Github\chambaap-rest\chamba.bll\assets\chambappsettings.json" target="contentFiles\any\netcoreapp3.1\assets\chambappsettings.json" />
+  </files>
+</package>

@@ -11,6 +11,7 @@ using chambapp.bll.Helpers;
 using chambapp.dto;
 using System.Diagnostics;
 using System.Net.Http;
+using Microsoft.AspNetCore.Http;
 
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -18,6 +19,8 @@ using System.Net.Http;
 namespace chambapp.services.Controllers
 {
     [Route("api/[controller]")]
+    [Produces("application/json")]
+    //[ProducesResponseType(typeof(string), StatusCodes.Status500InternalServerError)]
     [ApiController]
     public class InterviewsController : ControllerBase
     {
@@ -33,9 +36,9 @@ namespace chambapp.services.Controllers
         }
         [HttpGet]
         [Route("init")]
-        public async Task<ResponseModel> Init()
+        public async Task<ResponseModel> Init([FromQuery]int idCandidate = -1)
         {
-            return await _interviewBll.InitProcess();
+            return await _interviewBll.InitProcess(idCandidate);
         }
 
         [HttpPost]
@@ -43,6 +46,12 @@ namespace chambapp.services.Controllers
         {
             return await _interviewBll.CreateAsync(value);
 
+        }
+        [HttpPost]
+        [Route("proposal")]
+        public async Task<ResponseModel> PostProposal([FromBody] InterviewProposalDto value)
+        {
+            return await _interviewBll.CreateProposalAsync(value);
         }
     }
 }

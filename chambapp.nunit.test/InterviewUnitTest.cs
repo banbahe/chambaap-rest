@@ -54,7 +54,9 @@ namespace chambapp.nunit.test
         [Test]
         public void TestInitProcess() 
         {
-            _interviewsBll.InitProcess();
+            var t = Task.Run(() => _interviewsBll.InitProcess());
+            t.Wait();
+            var result = t.Result;
             Assert.IsTrue(1 > 0, "function success");
 
         }

@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using chambapp.dto;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -8,6 +10,8 @@ namespace chamba.services.Controllers
 {
     [ApiController]
     [Route("[controller]")]
+    [Produces("application/json")]
+    [ProducesResponseType(typeof(string),StatusCodes.Status500InternalServerError)]
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
@@ -22,6 +26,22 @@ namespace chamba.services.Controllers
             _logger = logger;
         }
 
+        /// <summary>
+        /// Get data from weather
+        /// </summary>
+        /// <remarks>
+        /// Sample request:
+        /// 
+        ///  Get /Get
+        ///  {
+        ///      "datums":"data",
+        ///      "flag":1,
+        ///      "message":"test"
+        ///  }
+        /// </remarks>
+        /// <returns>
+        /// Dummy data
+        /// </returns>
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {
@@ -33,6 +53,28 @@ namespace chamba.services.Controllers
                 Summary = Summaries[rng.Next(Summaries.Length)]
             })
             .ToArray();
+        }
+
+        /// <summary>
+        /// Get data from weather
+        /// </summary>
+        /// <remarks>
+        /// Sample request:
+        /// 
+        ///  Post /Insert
+        ///  {
+        ///      "Date":"2021-12-11",
+        ///      "TemperatureC": "100 ox",
+        ///      "Summary":"test"
+        ///  }
+        /// </remarks>
+        /// <returns>
+        /// Dummy data
+        /// </returns>
+        [HttpPost]
+        public IEnumerable<WeatherForecastDto> Insert([FromBody] WeatherForecastDto value)
+        {
+            return null; 
         }
     }
 }

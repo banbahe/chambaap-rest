@@ -23,6 +23,7 @@ namespace chambapp.storage.Models
         public string ConfigurationEmail { get; set; }
         public string ReplyEmail { get; set; }
         public string TemplateEmail { get; set; }
+        public string TemplatePlainText { get; set; }
         public string KeywordsEmail { get; set; }
 
         public virtual ICollection<Interview> InterviewIdcandidateNavigations { get; set; }

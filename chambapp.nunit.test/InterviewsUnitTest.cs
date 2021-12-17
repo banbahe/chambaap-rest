@@ -144,7 +144,7 @@ namespace chambapp.nunit.test
         //                    	""binding_candidatename"": ""Esteban Blanquel"",
         //                    	""binding_companyname"": ""Company X"",	
         //                    	""binding_imgbody"": ""https://dl.dropbox.com/s/182r6mm0syymuly/email_body.png"",	
-        //                    	""binding_imgbodycaption"": ""Necesitas consultar más acerca de mis <strong>skills</strong> accede aqui <a href=&quot;http://github.com/stbndev&quot;>GitHub! &raquo;</a>"",	
+        //                    	""binding_imgbodycaption"": ""Necesitas consultar mï¿½s acerca de mis <strong>skills</strong> accede aqui <a href=&quot;http://github.com/stbndev&quot;>GitHub! &raquo;</a>"",	
         //                    	""binding_cvuri"": [
         //                    				""Curriculum Vitae|https://dl.dropbox.com/s/600f2kpi1f4grok/cv.esteban.blanquel.pdf"",
         //                    	            ""CV|https://dl.dropbox.com/s/600f2kpi1f4grok/cv.esteban.blanquel.pdf""
@@ -156,7 +156,7 @@ namespace chambapp.nunit.test
         //                    				 ],
         //                    	""binding_phone"": ""5542846626"",
         //                    	""binding_email"":""eban.blanquel@gmail.com"",
-        //                    	""binding_phrase"": ""Muchas veces la gente no sabe lo que quiere hasta que se lo enseñas""
+        //                    	""binding_phrase"": ""Muchas veces la gente no sabe lo que quiere hasta que se lo enseï¿½as""
         //                    }",
         //                    EmailTemplate =
         //@"
@@ -414,7 +414,7 @@ namespace chambapp.nunit.test
         //					<td>
 
         //						<h3>Estimado/a binding_recruitername </h3>
-        //						<p class=""lead"">Mi nombre es binding_candidatename y le escribo porque he visto que en binding_companyname  están realizando un proceso de selección para una vacante de Programador.Tengo 8 años de experiencia en el área de Tecnologías de la información y la comunicación. Es un placer para mí hacerle llegar mi Currículum; me gustaría decirle que estoy realmente interesado en este puesto y considero que puedo desempeñarlo a la perfección.</p>
+        //						<p class=""lead"">Mi nombre es binding_candidatename y le escribo porque he visto que en binding_companyname  estï¿½n realizando un proceso de selecciï¿½n para una vacante de Programador.Tengo 8 aï¿½os de experiencia en el ï¿½rea de Tecnologï¿½as de la informaciï¿½n y la comunicaciï¿½n. Es un placer para mï¿½ hacerle llegar mi Currï¿½culum; me gustarï¿½a decirle que estoy realmente interesado en este puesto y considero que puedo desempeï¿½arlo a la perfecciï¿½n.</p>
 
         //						<p><img src=""binding_imgbody"" /></p> 
 
@@ -425,13 +425,13 @@ namespace chambapp.nunit.test
 
         //						<h4> binding_companyname <small></small></h4>
 
-        //						<p class=""lead"">Por otro lado, e indagado sobre binding_companyname  y me es una magnífica opción para continuar mi carrera profesional, por lo que me gustaría aprovechar la oportunidad de participar en el proceso de selección de este puesto.</p>
-        //						<p class=""lead"">Quedo a su entera disposición si considera oportuno mantener una entrevista. Será para mí un placer ampliarle información sobre cualquier duda que tenga.</p>
+        //						<p class=""lead"">Por otro lado, e indagado sobre binding_companyname  y me es una magnï¿½fica opciï¿½n para continuar mi carrera profesional, por lo que me gustarï¿½a aprovechar la oportunidad de participar en el proceso de selecciï¿½n de este puesto.</p>
+        //						<p class=""lead"">Quedo a su entera disposiciï¿½n si considera oportuno mantener una entrevista. Serï¿½ para mï¿½ un placer ampliarle informaciï¿½n sobre cualquier duda que tenga.</p>
 
         //						<p class=""lead"">Reciba un cordial saludo</p>
         //						<p class=""lead"">Atentamente: binding_candidatename</p>
 
-        //						<a href=""https://dl.dropbox.com/s/600f2kpi1f4grok/cv.esteban.blanquel.pdf"" target=""_blank"" class=""btn"">Currículum Vitae!</a>
+        //						<a href=""https://dl.dropbox.com/s/600f2kpi1f4grok/cv.esteban.blanquel.pdf"" target=""_blank"" class=""btn"">Currï¿½culum Vitae!</a>
         //						binding_cvurl						
         //						<br/>
         //						<br/>							

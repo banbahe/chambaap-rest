@@ -27,7 +27,7 @@ namespace chambapp.storage.Models
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-                //optionsBuilder.UseSqlServer("Server=BNQLD355;Database=chamba_storage;User Id=sa; Password= develop3r;");
+                // optionsBuilder.UseSqlServer("Server=BNQLD355\\SQLEXPRESS;Database=chambapp-storage;User Id=sa; Password=develop3r;");
                 optionsBuilder.UseSqlServer("Server=chambapp-storage.mssql.somee.com;Database=chambapp-storage ;User Id=edelruhe_SQLLogin_1; Password=wbzui9ute7;");
 
             }
@@ -194,6 +194,10 @@ namespace chambapp.storage.Models
                 entity.Property(e => e.TemplateEmail)
                     .HasColumnType("text")
                     .HasColumnName("template_email");
+                
+                entity.Property(e => e.TemplatePlainText)
+                    .HasColumnType("text")
+                    .HasColumnName("template_plaintext");
             });
 
             OnModelCreatingPartial(modelBuilder);

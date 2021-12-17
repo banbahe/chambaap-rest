@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>chambapp.services</name>
+    </assembly>
+    <members>
+        <member name="M:chamba.services.Controllers.WeatherForecastController.Get">
+            <summary>
+            Get data from weather
+            </summary>
+            <remarks>
+            Sample request:
+            
+             Get /Get
+             {
+                 "datums":"data",
+                 "flag":1,
+                 "message":"test"
+             }
+            </remarks>
+            <returns>
+            Dummy data
+            </returns>
+        </member>
+        <member name="M:chamba.services.Controllers.WeatherForecastController.Insert(chambapp.dto.WeatherForecastDto)">
+            <summary>
+            Get data from weather
+            </summary>
+            <remarks>
+            Sample request:
+            
+             Post /Insert
+             {
+                 "Date":"2021-12-11",
+                 "TemperatureC": "100 ox",
+                 "Summary":"test"
+             }
+            </remarks>
+            <returns>
+            Dummy data
+            </returns>
+        </member>
+    </members>
+</doc>

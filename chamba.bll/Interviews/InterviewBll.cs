@@ -16,6 +16,7 @@ using chambapp.bll.Companies;
 using chambapp.bll.Services.Email;
 using chambapp.bll.Users;
 using System.IO;
+using System.Threading;
 
 namespace chambapp.bll.Interviews
 {
@@ -72,49 +73,76 @@ namespace chambapp.bll.Interviews
             return _responseModel;
         }
 
-        public async Task<ResponseModel> InitProcess()
+        public async Task<ResponseModel> InitProcess(int idCandidate = -1)
         {
-            var getInterviewsProposal = _interviewDal.GetAllFilter((int)EnumStatusCatalog.InterviewProposal);
-            int counter = 0;
-            foreach (var interview in getInterviewsProposal)
+            var getInterviewsProposal = _interviewDal.GetAllFilter(iduser:idCandidate, idstatus: (int)EnumStatusCatalog.InterviewProposal);
+            string path = $"{Directory.GetCurrentDirectory()}\\assets\\cv.esteban.blanquel.pdf";
+            int count = 0;
+            foreach (var item in getInterviewsProposal)
             {
                 try
                 {
-                    var addInterview = await _interviewDal.CreateAsync(interview);
-                    if (addInterview.Id > 0)
+                    // get template for email
+                    var templates = _composeEmail(item.Id, item);
+                    string getHtmlEmail = templates.mailHtmlTemplate;
+                    string getPlainTextEmail = templates.mailPlainTextTemplate;
+
+                    bool flag0 = _emailService.Send(item.IdcandidateNavigation.Email,
+                                       item.IdrecruiterNavigation.Email,
+                                       item.IdcandidateNavigation.Subject,
+                                       getHtmlEmail,
+                                       item.IdcandidateNavigation.ConfigurationEmail);
+
+                    Thread.Sleep(3333);
+
+                    bool flag1 = _emailService.SendPlainText(item.IdcandidateNavigation.Email,
+                                       item.IdrecruiterNavigation.Email,
+                                       item.IdcandidateNavigation.Subject + ".",
+                                       getPlainTextEmail,
+                                       item.IdcandidateNavigation.ConfigurationEmail, path);
+
+                    if (flag0 && flag1)
                     {
-                        counter++;
-                        // call service Google Maps Plataform
-                        string companyName = addInterview.IdcompanyNavigation.Name;
-                        RootGoogleMapsDto resultGmp = await _googleMaps.TextSearchAsync(companyName);
-                        var resultCompany = resultGmp.Results.FirstOrDefault();
-
-                        // Company 
-                        string jsonString = JsonSerializer.Serialize(resultGmp);
-
-                        addInterview.IdcompanyNavigation.Address = resultCompany.formatted_address;
-                        addInterview.IdcompanyNavigation.MapLat = resultCompany.geometry.location.lat.ToString();
-                        addInterview.IdcompanyNavigation.MapLong = resultCompany.geometry.location.lng.ToString();
-                        addInterview.IdcompanyNavigation.MapRawJson = jsonString;
-
-                        var mapCompany = _mainMapper.Mapper.Map<CompanyDto>(addInterview.IdcompanyNavigation);
-
-                        await _companyBll.SetAsync(mapCompany);
-
+                        //set values
+                        item.IdstatusCatalog = (int)EnumStatusCatalog.Email_SentFirstTime;
+                        item.ShipDate = Helpers.DateTimeHelper.CurrentTimestamp();
+                        await _interviewDal.SetAsync(item);
+                        count++;
                     }
+
+                    //    // call service Google Maps Plataform
+                    //    string companyName = addInterview.IdcompanyNavigation.Name;
+                    //    RootGoogleMapsDto resultGmp = await _googleMaps.TextSearchAsync(companyName);
+                    //    var resultCompany = resultGmp.Results.FirstOrDefault();
+
+                    //    // Company 
+                    //    string jsonString = JsonSerializer.Serialize(resultGmp);
+
+                    //    addInterview.IdcompanyNavigation.Address = resultCompany.formatted_address;
+                    //    addInterview.IdcompanyNavigation.MapLat = resultCompany.geometry.location.lat.ToString();
+                    //    addInterview.IdcompanyNavigation.MapLong = resultCompany.geometry.location.lng.ToString();
+                    //    addInterview.IdcompanyNavigation.MapRawJson = jsonString;
+
+                    //    var mapCompany = _mainMapper.Mapper.Map<CompanyDto>(addInterview.IdcompanyNavigation);
+
+                    //    await _companyBll.SetAsync(mapCompany);
+
                 }
                 catch (Exception ex)
                 {
-                    _responseModel.Flag = (int)EnumStatusCatalog.Error;
-                    _responseModel.Message = $"* Incidence ${ex.Message}; ${ex.InnerException}";
+                    _responseModel.Message = $"* Incidence {item.IdrecruiterNavigation.Email} {ex.Message}; {ex.InnerException}";
                 }
             }
+            _responseModel.Flag = (int)EnumStatusCatalog.Ok;
+            _responseModel.Message = $"{_responseModel.Message} ; Send {count} emails ";
             return _responseModel;
         }
 
-        public string ComposeEmail(int idinterview, Interview paramInterview = null)
+
+        private (string mailHtmlTemplate, string mailPlainTextTemplate) _composeEmail(int idinterview, Interview paramInterview = null)
         {
-            string htmltemplate = string.Empty;
+            string mailHtmlTemplate = string.Empty;
+            string mailPlainTextTemplate = string.Empty;
             Interview interviewData;
             User candidateData;
             User recruiterData;
@@ -123,7 +151,6 @@ namespace chambapp.bll.Interviews
             {
                 if (paramInterview != null)
                     interviewData = paramInterview;
-
                 else
                     interviewData = _interviewDal.GetAllFilter(id: idinterview).FirstOrDefault<Interview>();
 
@@ -131,22 +158,29 @@ namespace chambapp.bll.Interviews
                 candidateData = interviewData.IdcandidateNavigation;
                 recruiterData = interviewData.IdrecruiterNavigation;
 
+                mailHtmlTemplate = candidateData.TemplateEmail;
+                mailPlainTextTemplate = candidateData.TemplatePlainText;
 
-                htmltemplate = candidateData.TemplateEmail;
                 string keywordsjson = candidateData.KeywordsEmail;
                 BindingEmailDto keywords = JsonSerializer.Deserialize<BindingEmailDto>(keywordsjson);
 
-                // build template email
-                htmltemplate = htmltemplate.Replace(nameof(keywords.binding_imghead), keywords.binding_imghead);
-                htmltemplate = htmltemplate.Replace(nameof(keywords.binding_title), keywords.binding_title);
-                htmltemplate = htmltemplate.Replace(nameof(keywords.binding_recruitername), keywords.binding_recruitername);
-                htmltemplate = htmltemplate.Replace(nameof(keywords.binding_candidatename), keywords.binding_candidatename);
-                htmltemplate = htmltemplate.Replace(nameof(keywords.binding_companyname), keywords.binding_companyname);
-                htmltemplate = htmltemplate.Replace(nameof(keywords.binding_imgbody), keywords.binding_imgbody);
-                htmltemplate = htmltemplate.Replace(nameof(keywords.binding_caption), keywords.binding_caption);
-                htmltemplate = htmltemplate.Replace(nameof(keywords.binding_phone), keywords.binding_phone);
-                htmltemplate = htmltemplate.Replace(nameof(keywords.binding_email), keywords.binding_email);
-                htmltemplate = htmltemplate.Replace(nameof(keywords.binding_phrase), keywords.binding_phrase);
+                // build email html template
+                mailHtmlTemplate = mailHtmlTemplate.Replace(nameof(keywords.binding_imghead), keywords.binding_imghead);
+                mailHtmlTemplate = mailHtmlTemplate.Replace(nameof(keywords.binding_title), keywords.binding_title);
+                mailHtmlTemplate = mailHtmlTemplate.Replace(nameof(keywords.binding_recruitername), paramInterview.IdrecruiterNavigation.Name);
+                mailHtmlTemplate = mailHtmlTemplate.Replace(nameof(keywords.binding_candidatename), paramInterview.IdcandidateNavigation.Name);
+                mailHtmlTemplate = mailHtmlTemplate.Replace(nameof(keywords.binding_candidateemail), paramInterview.IdcandidateNavigation.Email);
+                mailHtmlTemplate = mailHtmlTemplate.Replace(nameof(keywords.binding_companyname), paramInterview.IdcompanyNavigation.Name);
+                mailHtmlTemplate = mailHtmlTemplate.Replace(nameof(keywords.binding_imgbody), keywords.binding_imgbody);
+                mailHtmlTemplate = mailHtmlTemplate.Replace(nameof(keywords.binding_caption), keywords.binding_caption);
+                mailHtmlTemplate = mailHtmlTemplate.Replace(nameof(keywords.binding_phone), paramInterview.IdcandidateNavigation.PhoneNumber);
+                mailHtmlTemplate = mailHtmlTemplate.Replace(nameof(keywords.binding_email), paramInterview.IdcandidateNavigation.Email);
+                mailHtmlTemplate = mailHtmlTemplate.Replace(nameof(keywords.binding_phrase), keywords.binding_phrase);
+
+                // build email plain text
+                mailPlainTextTemplate = mailPlainTextTemplate.Replace(nameof(keywords.binding_recruitername), paramInterview.IdrecruiterNavigation.Name);
+                mailPlainTextTemplate = mailPlainTextTemplate.Replace(nameof(keywords.binding_candidatename), paramInterview.IdcandidateNavigation.Name);
+                mailPlainTextTemplate = mailPlainTextTemplate.Replace(nameof(keywords.binding_companyname), paramInterview.IdcompanyNavigation.Name);
 
                 // cv attachment
                 string tempAttach = string.Empty;
@@ -156,7 +190,7 @@ namespace chambapp.bll.Interviews
                     string[] btndata = itemAttach.Split('|');
                     tempAttach += @$"<a href = ""{btndata[1]}"" target = ""_blank"" class=""btn"" > {btndata[0]}</a>";
                 }
-                htmltemplate = htmltemplate.Replace(nameof(keywords.binding_cvuri), tempAttach);
+                mailHtmlTemplate = mailHtmlTemplate.Replace(nameof(keywords.binding_cvuri), tempAttach);
 
                 // social media
                 string tempSocialMedia = string.Empty;
@@ -165,13 +199,13 @@ namespace chambapp.bll.Interviews
                     string[] temparray = itemAttach.Split('|');
                     tempSocialMedia += @$"<a href=""{temparray[1]}"" class=""soc-btn gh"">{temparray[0]}</a>";
                 }
-                htmltemplate = htmltemplate.Replace(nameof(keywords.binding_socialmedia), tempSocialMedia);
+                mailHtmlTemplate = mailHtmlTemplate.Replace(nameof(keywords.binding_socialmedia), tempSocialMedia);
             }
             catch (Exception ex)
             {
-                htmltemplate = $"{ex.Message } ; {ex.InnerException.Message}";
+                mailHtmlTemplate = $"{ex.Message } ; {ex.InnerException.Message}";
             }
-            return htmltemplate;
+            return (mailHtmlTemplate: mailHtmlTemplate, mailPlainTextTemplate: mailPlainTextTemplate);
         }
 
         public async Task<ResponseModel> CreateAsync(InterviewDto interview)
@@ -206,7 +240,39 @@ namespace chambapp.bll.Interviews
 
             return _responseModel;
         }
-      
+        public async Task<ResponseModel> CreateProposalAsync(InterviewProposalDto interview)
+        {
+            try
+            {
+                if (interview.IdCandidate <= 0)
+                {
+                    _responseModel.Flag = (int)EnumStatusCatalog.Error;
+                    _responseModel.Message = "* Incidence Id Candidate is required";
+                }
+                else
+                {
+                    InterviewDto item = new InterviewDto();
+                    item.Candidate.IdCandidate = interview.IdCandidate;
+                    item.Company.Name = interview.Company;
+                    item.Provider = interview.Provider;
+                    item.EconomicExpectations = interview.EconomicExpectations;
+                    item.EconomicExpectationsOffered = interview.EconomicExpectationsOffered;
+                    item.Recruiter.Email = interview.Email;
+                    item.Recruiter.Phone = interview.Phone;
+                    item.Recruiter.Name = interview.RecruiterName;
+                    var result0 = await this.CreateAsync(item);
+                    return result0;
+                }
+            }
+            catch (Exception ex)
+            {
+                _responseModel.Flag = (int)EnumStatusCatalog.Error;
+                _responseModel.Message = $"* Incidence ${ex.Message}; ${ex.InnerException}";
+            }
+
+            return _responseModel;
+        }
+
         private async Task<bool> _getJobOffers()
         {
             try
@@ -214,8 +280,8 @@ namespace chambapp.bll.Interviews
                 foreach (var interview in _interviewDal.GetAllFilter(idstatus: (int)EnumStatusCatalog.InterviewProposal))
                 {
 
-
-                    string htmlTemplate = ComposeEmail(interview.Id, interview);
+                    var templates = _composeEmail(interview.Id, interview);
+                    string htmlTemplate = templates.mailHtmlTemplate;
                     bool flagEmail = _emailService.Send(from: interview.IdcandidateNavigation.Email,
                                        to: interview.IdrecruiterNavigation.Email,
                                        subject: interview.IdcandidateNavigation.Subject,

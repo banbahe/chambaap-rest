@@ -27,10 +27,28 @@ namespace chambapp.dal.Interviews
         {
             using (chamba_storageContext context = new chamba_storageContext())
             {
+                context.Attach(interview);
                 context.Entry(interview).State = EntityState.Modified;
                 await context.SaveChangesAsync();
-                return interview;
             }
+            return interview;
+        }
+
+
+        public Interview Set(Interview item) 
+        {
+            Interview result;
+            using (chamba_storageContext context = new chamba_storageContext())
+            {
+                context.Attach(item);
+                context.Entry(item).State = EntityState.Modified;
+                context.SaveChanges();
+                result = item;
+                //context.Entry(interview).State = EntityState.Modified;
+                //await context.SaveChangesAsync();
+            }
+            return result;
+            
         }
 
         public async Task<Interview> CreateAsync(Interview interview)
@@ -71,6 +89,22 @@ namespace chambapp.dal.Interviews
                     _listInterview = data2.ToList();
 
                 }
+                if (idstatus > 0 && iduser > 0)
+                {
+                    
+                    IQueryable<Interview> data = context.Interviews.Include(t => t.IdcompanyNavigation)
+                                                            .Include(t => t.IdrecruiterNavigation)
+                                                            .Include(t => t.IdcandidateNavigation)
+                                                            .Where(t => t.IdstatusCatalog == idstatus &&
+                                                                        t.Idcandidate == iduser);
+                    //var data = context.Interviews.Include(t => t.IdcompanyNavigation)
+                    //                                        .Include(t => t.IdrecruiterNavigation)
+                    //                                        .Include(t => t.IdcandidateNavigation)
+                    //                                        .Where(t => t.IdstatusCatalog == idstatus &&
+                    //                                                    t.Idcandidate == iduser);
+                    
+                    return data.ToList();
+                }
 
                 if (idstatus > 0)
                 {
@@ -78,15 +112,16 @@ namespace chambapp.dal.Interviews
                                                             .Include(t => t.IdrecruiterNavigation)
                                                             .Include(t => t.IdcandidateNavigation)
                                                             .Where(t => t.IdstatusCatalog == idstatus);
-                    _listInterview = data.ToList();
+                    return data.ToList();
                 }
+
                 if (iduser > 0)
                 {
                     IQueryable<Interview> data = context.Interviews.Include(t => t.IdcompanyNavigation)
                                                             .Include(t => t.IdrecruiterNavigation)
                                                             .Include(t => t.IdcandidateNavigation)
                                                             .Where(t => t.Idcandidate == iduser || t.Idrecruiter == iduser);
-                    _listInterview = data.ToList();
+                    return data.ToList();
                 }
                 if (idcompany > 0)
                 {
@@ -97,7 +132,6 @@ namespace chambapp.dal.Interviews
                     _listInterview = data.ToList();
                 }
             }
-
             return _listInterview;
         }
     }
