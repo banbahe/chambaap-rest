@@ -6,11 +6,21 @@ namespace chambapp.dto
     {
         public int IdRecruiter { get; set; }
         public string Name { get; set; }
-        public string Email { get; set; }
+
+        private string _Email;
+        public string Email
+        {
+            get { return _Email; }
+            set { _Email = value.ToLower(); }
+        }
+
         public string Phone { get; set; }
-        public string ReplyEmail { get; set; }
+        public string EmailReply { get; set; }
         public object TempSalary { get; set; }
         public int CurrentState { get; } = 201;
+
+
+
         //        id description
         //200	USERS_CANDIDATE
         //201	USERS_RECRUITER

@@ -18,7 +18,7 @@ namespace chambapp.bll.AutoMapper
                     .ForMember(d => d.Email, m => m.MapFrom(s => s.Email))
                     .ForMember(d => d.PhoneNumber, m => m.MapFrom(s => s.Phone))
                     .ForMember(d => d.IdstatusCatalog, m => m.MapFrom(s => s.CurrentState))
-                    .ForMember(d => d.ReplyEmail, m => m.MapFrom(s => s.ReplyEmail));
+                    .ForMember(d => d.ReplyEmail, m => m.MapFrom(s => s.EmailReply));
 
             CreateMap<User, RecruiterDto> ()
                     .ForMember(d => d.IdRecruiter, m => m.MapFrom(s => s.Id))
@@ -26,7 +26,7 @@ namespace chambapp.bll.AutoMapper
                     .ForMember(d => d.Email, m => m.MapFrom(s => s.Email))
                     .ForMember(d => d.Phone, m => m.MapFrom(s => s.PhoneNumber))
                     .ForMember(d => d.CurrentState, m => m.MapFrom(s => s.IdstatusCatalog))
-                    .ForMember(d => d.ReplyEmail, m => m.MapFrom(s => s.ReplyEmail));
+                    .ForMember(d => d.EmailReply, m => m.MapFrom(s => s.ReplyEmail));
 
             CreateMap<CandidateDto, User>()
                     .ForMember(d => d.Id, m => m.MapFrom(s => s.IdCandidate))

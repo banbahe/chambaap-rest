@@ -5,6 +5,6 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <_PublishTargetUrl>C:\Github\chambaap-rest\chamba.services\bin\Release\netcoreapp3.1\publish\</_PublishTargetUrl>
-    <History>True|2021-12-17T19:40:16.9596453Z;True|2021-12-10T13:11:10.9822703-06:00;True|2021-12-10T13:10:04.9127673-06:00;True|2021-12-09T16:20:35.1178294-06:00;True|2021-11-23T15:54:45.4183911-06:00;True|2021-11-16T21:16:42.4492128-06:00;</History>
+    <History>True|2022-01-08T18:20:28.5109384Z;True|2021-12-18T14:45:54.6580367-06:00;True|2021-12-18T09:11:17.5057245-06:00;True|2021-12-17T16:17:52.6789280-06:00;True|2021-12-17T14:56:31.4675022-06:00;True|2021-12-17T13:40:16.9596453-06:00;True|2021-12-10T13:11:10.9822703-06:00;True|2021-12-10T13:10:04.9127673-06:00;True|2021-12-09T16:20:35.1178294-06:00;True|2021-11-23T15:54:45.4183911-06:00;True|2021-11-16T21:16:42.4492128-06:00;</History>
   </PropertyGroup>
 </Project>

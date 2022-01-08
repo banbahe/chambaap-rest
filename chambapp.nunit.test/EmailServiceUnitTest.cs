@@ -7,13 +7,24 @@ namespace chambapp.nunit.test
     public class EmailServiceUnitTest
     {
 
-        //private IEmailService _emailService;
+        private IEmailService _emailService;
 
-        //[SetUp]
-        //public void Setup()
+        [SetUp]
+        public void Setup()
+        {
+            _emailService = new EmailService();
+        }
+        //[Test]
+        //public void TestReadInbox()
         //{
-        //    _emailService = new EmailService();
+        //    var t = Task.Run(() => _emailService.ReadInbox(""));
+        //    //t.Start();
+        //    t.Wait();
+        //    var r = t.Result;
+        //    // var t = _emailService.ReadInbox("");
+        //    Assert.IsNull(null, "method ok"); 
         //}
+
         //[Test]
         //public async Task TestTextsearch()
         //{

@@ -8,7 +8,13 @@ namespace chambapp.dto
     {
         public int IdCandidate { get; set; }
         public string Name { get; set; }
-        public string Email { get; set; }
+        
+        private string _Email;
+        public string Email
+        {
+            get { return _Email; }
+            set { _Email = value.ToLower(); }
+        }
         public string Phone { get; set; }
         public string Pwd { get; set; }
         public int CurrentState { get;  } = 200;

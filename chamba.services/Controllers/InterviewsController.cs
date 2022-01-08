@@ -29,6 +29,17 @@ namespace chambapp.services.Controllers
 
         public InterviewsController(IInterviewBll interviewBll) => _interviewBll = interviewBll;
 
+        /// <summary>
+        /// Read inbox and match reply mail
+        /// </summary>
+        /// <param name="user">id user</param>
+        /// <returns>Response Model</returns>
+        [HttpGet]
+        [Route("readinbox")]
+        public async Task<ResponseModel> ReadInbox([FromQuery] int user = -1)
+        {
+            return await _interviewBll.ReadMail(user);
+        }
         [HttpGet]
         public ResponseModel GetPerFilter(int all = 0, int id = 0, int idstatus = 0, int iduser = 0, int idcompany = 0)
         {

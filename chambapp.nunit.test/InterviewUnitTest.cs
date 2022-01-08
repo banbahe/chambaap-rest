@@ -10,12 +10,16 @@ using System;
 using chambapp.bll.Services.Email;
 using chambapp.bll.Services;
 using chambapp.dal.Interviews;
+using chambapp.bll.Users;
+using chambapp.dal.Users;
 using chambapp.bll.Interviews;
 
 namespace chambapp.nunit.test
 {
     public class InterviewUnitTest
     {
+        private IUserBll _userBll;
+        private IUserDal _userDal;
         private IEmailService _emailService;
         private IGoogleMaps _googleMaps;
         private IInterviewBll _interviewsBll;
@@ -28,6 +32,7 @@ namespace chambapp.nunit.test
         [SetUp]
         public void Setup()
         {
+            
             _emailService = new EmailService();
             _googleMaps = new GoogleMaps();
             _response = new ResponseModel();
@@ -35,13 +40,26 @@ namespace chambapp.nunit.test
             _interviewDal = new InterviewDal();
             _companyDal = new CompanyDal();
             _companyBll = new CompanyBll(_companyDal, _mainMapper);
+            _userDal = new UserDal();
+            _userBll = new UserBll(_userDal,_mainMapper, _response);
 
-            _interviewsBll = new InterviewBll(_emailService,
+            _interviewsBll = new InterviewBll(
+                                              _emailService,
                                               _companyBll,
                                               _googleMaps,
                                               _interviewDal,
                                               _response,
                                               _mainMapper);
+        }
+
+        [Test]
+        public async Task ReadInboxTest() 
+        {
+            
+            var result = await _interviewsBll.ReadMail(1);
+            Assert.IsTrue(result.Flag == 1, "success");
+            //t.Result;
+            //Task<ResponseModel> ReadInbox(int idCandidate)
         }
 
         //[Test]
@@ -51,15 +69,15 @@ namespace chambapp.nunit.test
         //    Assert.IsTrue(1 > 0, "function success");
         //}
 
-        [Test]
-        public void TestInitProcess() 
-        {
-            var t = Task.Run(() => _interviewsBll.InitProcess());
-            t.Wait();
-            var result = t.Result;
-            Assert.IsTrue(1 > 0, "function success");
+        //[Test]
+        //public void TestInitProcess() 
+        //{
+        //    var t = Task.Run(() => _interviewsBll.InitProcess());
+        //    t.Wait();
+        //    var result = t.Result;
+        //    Assert.IsTrue(1 > 0, "function success");
 
-        }
+        //}
 
         //[Test]
         //public void TestCreateInterview()

@@ -38,6 +38,12 @@ public class ResponseObject {
             var  currentTime = System.DateTimeOffset.Now.ToUnixTimeSeconds();
             return (int) currentTime;
         }
+        public static int ConvertDatetimeToUnixTimeStamp(DateTime date)
+        {
+            DateTime originDate = new DateTime(1970, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc);
+            TimeSpan diff = date.ToUniversalTime() - originDate;
+            return (int)Math.Floor(diff.TotalSeconds);
+        }
 
 
     }

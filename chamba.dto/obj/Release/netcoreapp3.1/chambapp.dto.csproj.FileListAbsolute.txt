@@ -7,4 +7,3 @@ C:\Github\chambaap-rest\chamba.dto\obj\Release\netcoreapp3.1\chambapp.dto.Assemb
 C:\Github\chambaap-rest\chamba.dto\obj\Release\netcoreapp3.1\chambapp.dto.csproj.CoreCompileInputs.cache
 C:\Github\chambaap-rest\chamba.dto\obj\Release\netcoreapp3.1\chambapp.dto.dll
 C:\Github\chambaap-rest\chamba.dto\obj\Release\netcoreapp3.1\chambapp.dto.pdb
-C:\Github\chambaap-rest\chamba.dto\obj\Release\netcoreapp3.1\chambapp.dto.csproj.AssemblyReference.cache

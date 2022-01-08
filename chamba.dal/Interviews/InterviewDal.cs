@@ -29,27 +29,31 @@ namespace chambapp.dal.Interviews
             {
                 context.Attach(interview);
                 context.Entry(interview).State = EntityState.Modified;
+
+                context.Attach(interview.IdrecruiterNavigation);
+                context.Entry(interview.IdrecruiterNavigation).State = EntityState.Modified;
+
                 await context.SaveChangesAsync();
             }
             return interview;
         }
 
 
-        public Interview Set(Interview item) 
-        {
-            Interview result;
-            using (chamba_storageContext context = new chamba_storageContext())
-            {
-                context.Attach(item);
-                context.Entry(item).State = EntityState.Modified;
-                context.SaveChanges();
-                result = item;
-                //context.Entry(interview).State = EntityState.Modified;
-                //await context.SaveChangesAsync();
-            }
-            return result;
+        //public Interview Set(Interview item) 
+        //{
+        //    Interview result;
+        //    using (chamba_storageContext context = new chamba_storageContext())
+        //    {
+        //        context.Attach(item);
+        //        context.Entry(item).State = EntityState.Modified;
+        //        context.SaveChanges();
+        //        result = item;
+        //        //context.Entry(interview).State = EntityState.Modified;
+        //        //await context.SaveChangesAsync();
+        //    }
+        //    return result;
             
-        }
+        //}
 
         public async Task<Interview> CreateAsync(Interview interview)
         {
@@ -65,7 +69,7 @@ namespace chambapp.dal.Interviews
             }
         }
 
-        public IEnumerable<Interview> GetAllFilter(int all = 0, int id = 0, int idstatus = 0, int iduser = 0, int idcompany = 0)
+        public IEnumerable<Interview> GetAllFilter(int all = 0, int id = 0, int idstatus = 0, int idcandidate = 0, int idcompany = 0)
         {
 
             //
@@ -89,14 +93,14 @@ namespace chambapp.dal.Interviews
                     _listInterview = data2.ToList();
 
                 }
-                if (idstatus > 0 && iduser > 0)
+                if (idstatus > 0 && idcandidate > 0)
                 {
                     
                     IQueryable<Interview> data = context.Interviews.Include(t => t.IdcompanyNavigation)
                                                             .Include(t => t.IdrecruiterNavigation)
                                                             .Include(t => t.IdcandidateNavigation)
                                                             .Where(t => t.IdstatusCatalog == idstatus &&
-                                                                        t.Idcandidate == iduser);
+                                                                        t.Idcandidate == idcandidate);
                     //var data = context.Interviews.Include(t => t.IdcompanyNavigation)
                     //                                        .Include(t => t.IdrecruiterNavigation)
                     //                                        .Include(t => t.IdcandidateNavigation)
@@ -115,12 +119,12 @@ namespace chambapp.dal.Interviews
                     return data.ToList();
                 }
 
-                if (iduser > 0)
+                if (idcandidate > 0)
                 {
                     IQueryable<Interview> data = context.Interviews.Include(t => t.IdcompanyNavigation)
                                                             .Include(t => t.IdrecruiterNavigation)
                                                             .Include(t => t.IdcandidateNavigation)
-                                                            .Where(t => t.Idcandidate == iduser || t.Idrecruiter == iduser);
+                                                            .Where(t => t.Idcandidate == idcandidate || t.Idrecruiter == idcandidate);
                     return data.ToList();
                 }
                 if (idcompany > 0)

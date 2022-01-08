@@ -8,15 +8,18 @@ using System.IO;
 using System.Text.Json;
 using System.Threading.Tasks;
 using System;
+using System.Collections.Generic;
 // using WebApi.Helpers;
 
 namespace chambapp.bll.Services.Email
 {
     public interface IEmailService
     {
-        InterviewDto interview { get; set; }
-        bool Send(string from, string to, string subject, string body, string configuration);
-        bool SendPlainText(string from, string to, string subject, string body, string configutations, string path);
+        List<InterviewDto> ListInterviewDto { get; set; }
+        bool Send(string from, string to, string subject, string body, string configuration, ref string messageexception);
+        bool SendPlainText(string from, string to, string subject, string body, string configutations, ref string messageexception);
+        Task<string> ReadInbox(string configuration, string[] listTo);
+
     }
 
 

@@ -4,6 +4,13 @@
         <name>chambapp.services</name>
     </assembly>
     <members>
+        <member name="M:chambapp.services.Controllers.InterviewsController.ReadInbox(System.Int32)">
+            <summary>
+            Read inbox and match reply mail
+            </summary>
+            <param name="user">id user</param>
+            <returns>Response Model</returns>
+        </member>
         <member name="M:chamba.services.Controllers.WeatherForecastController.Get">
             <summary>
             Get data from weather

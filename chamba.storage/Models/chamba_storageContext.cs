@@ -194,7 +194,7 @@ namespace chambapp.storage.Models
                 entity.Property(e => e.TemplateEmail)
                     .HasColumnType("text")
                     .HasColumnName("template_email");
-                
+
                 entity.Property(e => e.TemplatePlainText)
                     .HasColumnType("text")
                     .HasColumnName("template_plaintext");
