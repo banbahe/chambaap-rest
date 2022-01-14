@@ -33,6 +33,41 @@ namespace chambapp.bll.Interviews
             _mainMapper = mainMapper;
             _googleMaps = googleMaps;
         }
+
+        public async Task<ResponseModel> DeleteAsync(int interviewId)
+        {
+            try
+            {
+                if (interviewId <= 0)
+                {
+                    _responseModel.Flag = (int)EnumStatusCatalog.Error;
+                    _responseModel.Message = "* Incidence interview id is required";
+                }
+                else
+                {
+                    // mapping 
+                    var tmpInterview = _interviewDal.GetAllFilter(id: interviewId).SingleOrDefault();
+                    tmpInterview.IdstatusCatalog = (int)EnumStatusCatalog.Delete;
+                    tmpInterview.InterviewDate = Helpers.DateTimeHelper.CurrentTimestamp();
+
+                    var result = await _interviewDal.DeleteAsync(tmpInterview);
+
+                    if (result.Id > 0)
+                    {
+                        InterviewDto interviewDto = _mainMapper.Mapper.Map<InterviewDto>(result);
+                        _responseModel.Flag = (int)EnumStatusCatalog.Ok;
+                        _responseModel.Datums = interviewDto;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                _responseModel.Flag = (int)EnumStatusCatalog.Error;
+                _responseModel.Message = $"* Incidence ${ex.Message}; ${ex.InnerException}";
+            }
+            return _responseModel;
+        }
+
         public ResponseModel GetPerFilter(int all = 0, int id = 0, int idstatus = 0, int iduser = 0, int idcompany = 0)
         {
             try

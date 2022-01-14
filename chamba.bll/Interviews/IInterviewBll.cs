@@ -6,8 +6,8 @@ namespace chambapp.bll.Interviews
 {
     public interface IInterviewBll
     {
+        Task<ResponseModel> DeleteAsync(int userId);
         Task<ResponseModel> ReadMail(int idCandidate);
-
         Task<ResponseModel> InitProcess(int idCandidate = -1);
         Task<ResponseModel> CreateProposalAsync(InterviewProposalDto interview);
         Task<ResponseModel> CreateAsync(InterviewDto interview);

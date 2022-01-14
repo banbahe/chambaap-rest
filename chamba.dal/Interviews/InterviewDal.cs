@@ -38,6 +38,17 @@ namespace chambapp.dal.Interviews
             return interview;
         }
 
+        public async Task<Interview> DeleteAsync(Interview interview)
+        {
+            using (chamba_storageContext context = new chamba_storageContext())
+            {
+                context.Attach(interview);
+                context.Entry(interview).State = EntityState.Modified;
+                await context.SaveChangesAsync();
+            }
+            return interview;
+        }
+
 
         //public Interview Set(Interview item) 
         //{
@@ -52,7 +63,7 @@ namespace chambapp.dal.Interviews
         //        //await context.SaveChangesAsync();
         //    }
         //    return result;
-            
+
         //}
 
         public async Task<Interview> CreateAsync(Interview interview)

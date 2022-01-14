@@ -29,12 +29,19 @@ namespace chambapp.services.Controllers
 
         public InterviewsController(IInterviewBll interviewBll) => _interviewBll = interviewBll;
 
+
+        [HttpDelete]
+        public async Task<ResponseModel> Delete([FromQuery] int interviewId)
+        {
+            return await _interviewBll.DeleteAsync(interviewId);
+        }
         /// <summary>
         /// Read inbox and match reply mail
         /// </summary>
         /// <param name="user">id user</param>
         /// <returns>Response Model</returns>
         [HttpGet]
+
         [Route("readinbox")]
         public async Task<ResponseModel> ReadInbox([FromQuery] int user = -1)
         {
